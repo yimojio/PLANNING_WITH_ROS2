@@ -1,0 +1,37 @@
+[4.701s] Invoking command in '/home/huang/Planning_with_ROS2/src/data_plot': PYTHONPATH=/home/huang/Planning_with_ROS2/src/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huang/Planning_with_ROS2/src/install/data_plot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/data_plot build --build-base /home/huang/Planning_with_ROS2/src/build/data_plot/build install --record /home/huang/Planning_with_ROS2/src/build/data_plot/install.log --install-scripts $base/lib/data_plot --single-version-externally-managed install_data
+[5.276s] running egg_info
+[5.276s] creating ../build/data_plot/data_plot.egg-info
+[5.282s] writing ../build/data_plot/data_plot.egg-info/PKG-INFO
+[5.283s] writing dependency_links to ../build/data_plot/data_plot.egg-info/dependency_links.txt
+[5.283s] writing entry points to ../build/data_plot/data_plot.egg-info/entry_points.txt
+[5.283s] writing requirements to ../build/data_plot/data_plot.egg-info/requires.txt
+[5.283s] writing top-level names to ../build/data_plot/data_plot.egg-info/top_level.txt
+[5.284s] writing manifest file '../build/data_plot/data_plot.egg-info/SOURCES.txt'
+[5.310s] reading manifest file '../build/data_plot/data_plot.egg-info/SOURCES.txt'
+[5.310s] writing manifest file '../build/data_plot/data_plot.egg-info/SOURCES.txt'
+[5.311s] running build
+[5.313s] running build_py
+[5.313s] creating /home/huang/Planning_with_ROS2/src/build/data_plot/build
+[5.313s] creating /home/huang/Planning_with_ROS2/src/build/data_plot/build/lib
+[5.313s] creating /home/huang/Planning_with_ROS2/src/build/data_plot/build/lib/data_plot
+[5.313s] copying data_plot/__init__.py -> /home/huang/Planning_with_ROS2/src/build/data_plot/build/lib/data_plot
+[5.313s] copying data_plot/data_plot.py -> /home/huang/Planning_with_ROS2/src/build/data_plot/build/lib/data_plot
+[5.316s] running install
+[5.316s] running install_lib
+[5.316s] creating /home/huang/Planning_with_ROS2/src/install/data_plot/lib/python3.10/site-packages/data_plot
+[5.317s] copying /home/huang/Planning_with_ROS2/src/build/data_plot/build/lib/data_plot/__init__.py -> /home/huang/Planning_with_ROS2/src/install/data_plot/lib/python3.10/site-packages/data_plot
+[5.317s] copying /home/huang/Planning_with_ROS2/src/build/data_plot/build/lib/data_plot/data_plot.py -> /home/huang/Planning_with_ROS2/src/install/data_plot/lib/python3.10/site-packages/data_plot
+[5.317s] byte-compiling /home/huang/Planning_with_ROS2/src/install/data_plot/lib/python3.10/site-packages/data_plot/__init__.py to __init__.cpython-310.pyc
+[5.317s] byte-compiling /home/huang/Planning_with_ROS2/src/install/data_plot/lib/python3.10/site-packages/data_plot/data_plot.py to data_plot.cpython-310.pyc
+[5.317s] running install_data
+[5.317s] creating /home/huang/Planning_with_ROS2/src/install/data_plot/share/ament_index
+[5.318s] creating /home/huang/Planning_with_ROS2/src/install/data_plot/share/ament_index/resource_index
+[5.318s] creating /home/huang/Planning_with_ROS2/src/install/data_plot/share/ament_index/resource_index/packages
+[5.318s] copying resource/data_plot -> /home/huang/Planning_with_ROS2/src/install/data_plot/share/ament_index/resource_index/packages
+[5.318s] copying package.xml -> /home/huang/Planning_with_ROS2/src/install/data_plot/share/data_plot
+[5.320s] running install_egg_info
+[5.322s] Copying ../build/data_plot/data_plot.egg-info to /home/huang/Planning_with_ROS2/src/install/data_plot/lib/python3.10/site-packages/data_plot-0.0.0-py3.10.egg-info
+[5.326s] running install_scripts
+[5.380s] Installing data_plot script to /home/huang/Planning_with_ROS2/src/install/data_plot/lib/data_plot
+[5.384s] writing list of installed files to '/home/huang/Planning_with_ROS2/src/build/data_plot/install.log'
+[5.559s] Invoked command in '/home/huang/Planning_with_ROS2/src/data_plot' returned '0': PYTHONPATH=/home/huang/Planning_with_ROS2/src/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huang/Planning_with_ROS2/src/install/data_plot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/data_plot build --build-base /home/huang/Planning_with_ROS2/src/build/data_plot/build install --record /home/huang/Planning_with_ROS2/src/build/data_plot/install.log --install-scripts $base/lib/data_plot --single-version-externally-managed install_data

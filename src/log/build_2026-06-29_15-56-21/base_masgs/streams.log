@@ -1,0 +1,48 @@
+[0.159s] Invoking command in '/home/huang/Planning_with_ROS2/src/build/base_masgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake /home/huang/Planning_with_ROS2/src/base_masgs -DCMAKE_INSTALL_PREFIX=/home/huang/Planning_with_ROS2/src/install/base_masgs
+[1.168s] -- The C compiler identification is GNU 11.4.0
+[1.192s] -- The CXX compiler identification is GNU 11.4.0
+[1.270s] -- Detecting C compiler ABI info
+[1.607s] -- Detecting C compiler ABI info - done
+[1.639s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.642s] -- Detecting C compile features
+[1.649s] -- Detecting C compile features - done
+[1.670s] -- Detecting CXX compiler ABI info
+[2.053s] -- Detecting CXX compiler ABI info - done
+[2.095s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.102s] -- Detecting CXX compile features
+[2.102s] -- Detecting CXX compile features - done
+[2.156s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.841s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.324s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.366s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.448s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.767s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.091s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[4.756s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.803s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.036s] -- Added test 'lint_cmake' to check CMake code style
+[5.044s] -- Added test 'xmllint' to check XML markup files
+[5.049s] -- Configuring done
+[5.077s] -- Generating done
+[5.083s] -- Build files have been written to: /home/huang/Planning_with_ROS2/src/build/base_masgs
+[5.124s] Invoked command in '/home/huang/Planning_with_ROS2/src/build/base_masgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake /home/huang/Planning_with_ROS2/src/base_masgs -DCMAKE_INSTALL_PREFIX=/home/huang/Planning_with_ROS2/src/install/base_masgs
+[5.127s] Invoking command in '/home/huang/Planning_with_ROS2/src/build/base_masgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --build /home/huang/Planning_with_ROS2/src/build/base_masgs -- -j4 -l4
+[5.311s] Invoked command in '/home/huang/Planning_with_ROS2/src/build/base_masgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --build /home/huang/Planning_with_ROS2/src/build/base_masgs -- -j4 -l4
+[5.373s] Invoking command in '/home/huang/Planning_with_ROS2/src/build/base_masgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --install /home/huang/Planning_with_ROS2/src/build/base_masgs
+[5.397s] -- Install configuration: ""
+[5.397s] -- Installing: /home/huang/Planning_with_ROS2/src/install/base_masgs/share/ament_index/resource_index/package_run_dependencies/base_masgs
+[5.399s] -- Installing: /home/huang/Planning_with_ROS2/src/install/base_masgs/share/ament_index/resource_index/parent_prefix_path/base_masgs
+[5.408s] -- Installing: /home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/environment/ament_prefix_path.sh
+[5.409s] -- Installing: /home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/environment/ament_prefix_path.dsv
+[5.414s] -- Installing: /home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/environment/path.sh
+[5.415s] -- Installing: /home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/environment/path.dsv
+[5.415s] -- Installing: /home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/local_setup.bash
+[5.415s] -- Installing: /home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/local_setup.sh
+[5.415s] -- Installing: /home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/local_setup.zsh
+[5.415s] -- Installing: /home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/local_setup.dsv
+[5.415s] -- Installing: /home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/package.dsv
+[5.419s] -- Installing: /home/huang/Planning_with_ROS2/src/install/base_masgs/share/ament_index/resource_index/packages/base_masgs
+[5.419s] -- Installing: /home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/cmake/base_masgsConfig.cmake
+[5.419s] -- Installing: /home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/cmake/base_masgsConfig-version.cmake
+[5.419s] -- Installing: /home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/package.xml
+[5.425s] Invoked command in '/home/huang/Planning_with_ROS2/src/build/base_masgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --install /home/huang/Planning_with_ROS2/src/build/base_masgs

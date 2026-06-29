@@ -1,0 +1,21 @@
+[2.151s] Invoking command in '/home/huang/Planning_with_ROS2/src/data_plot': AMENT_PREFIX_PATH=/home/huang/Planning_with_ROS2/install/base_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huang/Planning_with_ROS2/install/base_msgs:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/huang/Planning_with_ROS2/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huang/Planning_with_ROS2/install/data_plot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_plot build --build-base /home/huang/Planning_with_ROS2/build/data_plot/build install --record /home/huang/Planning_with_ROS2/build/data_plot/install.log --install-scripts $base/lib/data_plot --single-version-externally-managed install_data
+[2.533s] running egg_info
+[2.536s] writing ../../build/data_plot/data_plot.egg-info/PKG-INFO
+[2.537s] writing dependency_links to ../../build/data_plot/data_plot.egg-info/dependency_links.txt
+[2.539s] writing entry points to ../../build/data_plot/data_plot.egg-info/entry_points.txt
+[2.540s] writing requirements to ../../build/data_plot/data_plot.egg-info/requires.txt
+[2.541s] writing top-level names to ../../build/data_plot/data_plot.egg-info/top_level.txt
+[2.545s] reading manifest file '../../build/data_plot/data_plot.egg-info/SOURCES.txt'
+[2.547s] writing manifest file '../../build/data_plot/data_plot.egg-info/SOURCES.txt'
+[2.548s] running build
+[2.548s] running build_py
+[2.549s] running install
+[2.550s] running install_lib
+[2.553s] running install_data
+[2.554s] running install_egg_info
+[2.558s] removing '/home/huang/Planning_with_ROS2/install/data_plot/lib/python3.10/site-packages/data_plot-0.0.0-py3.10.egg-info' (and everything under it)
+[2.558s] Copying ../../build/data_plot/data_plot.egg-info to /home/huang/Planning_with_ROS2/install/data_plot/lib/python3.10/site-packages/data_plot-0.0.0-py3.10.egg-info
+[2.560s] running install_scripts
+[2.588s] Installing data_plot script to /home/huang/Planning_with_ROS2/install/data_plot/lib/data_plot
+[2.590s] writing list of installed files to '/home/huang/Planning_with_ROS2/build/data_plot/install.log'
+[2.651s] Invoked command in '/home/huang/Planning_with_ROS2/src/data_plot' returned '0': AMENT_PREFIX_PATH=/home/huang/Planning_with_ROS2/install/base_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huang/Planning_with_ROS2/install/base_msgs:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/huang/Planning_with_ROS2/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huang/Planning_with_ROS2/install/data_plot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_plot build --build-base /home/huang/Planning_with_ROS2/build/data_plot/build install --record /home/huang/Planning_with_ROS2/build/data_plot/install.log --install-scripts $base/lib/data_plot --single-version-externally-managed install_data

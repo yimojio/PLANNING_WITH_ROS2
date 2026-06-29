@@ -1,0 +1,1 @@
+Invoking command in '/home/huang/Planning_with_ROS2/build/planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake /home/huang/Planning_with_ROS2/src/planning -DCMAKE_INSTALL_PREFIX=/home/huang/Planning_with_ROS2/install/planning

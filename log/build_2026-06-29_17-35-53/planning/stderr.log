@@ -1,0 +1,8 @@
+[31mCMake Error at CMakeLists.txt:64 (add_subdirectory):
+  The source directory
+
+    /home/huang/Planning_with_ROS2/src/planning/src/global_planner
+
+  does not contain a CMakeLists.txt file.
+
+[0m

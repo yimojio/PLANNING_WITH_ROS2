@@ -1,0 +1,15 @@
+/home/huang/Planning_with_ROS2/src/install/base_masgs/share/ament_index/resource_index/package_run_dependencies/base_masgs
+/home/huang/Planning_with_ROS2/src/install/base_masgs/share/ament_index/resource_index/parent_prefix_path/base_masgs
+/home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/environment/ament_prefix_path.sh
+/home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/environment/ament_prefix_path.dsv
+/home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/environment/path.sh
+/home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/environment/path.dsv
+/home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/local_setup.bash
+/home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/local_setup.sh
+/home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/local_setup.zsh
+/home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/local_setup.dsv
+/home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/package.dsv
+/home/huang/Planning_with_ROS2/src/install/base_masgs/share/ament_index/resource_index/packages/base_masgs
+/home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/cmake/base_masgsConfig.cmake
+/home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/cmake/base_masgsConfig-version.cmake
+/home/huang/Planning_with_ROS2/src/install/base_masgs/share/base_masgs/package.xml

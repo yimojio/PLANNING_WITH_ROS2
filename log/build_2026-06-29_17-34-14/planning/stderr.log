@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:54 (find_package):
+  By not providing "Findbase_msgs.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "base_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by "base_msgs" with
+  any of the following names:
+
+    base_msgsConfig.cmake
+    base_msgs-config.cmake
+
+  Add the installation prefix of "base_msgs" to CMAKE_PREFIX_PATH or set
+  "base_msgs_DIR" to a directory containing one of the above files.  If
+  "base_msgs" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m
