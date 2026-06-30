@@ -1,0 +1,406 @@
+[0.000000] (-) TimerEvent: {}
+[0.001722] (base_msgs) JobQueued: {'identifier': 'base_msgs', 'dependencies': OrderedDict()}
+[0.001957] (data_plot) JobQueued: {'identifier': 'data_plot', 'dependencies': OrderedDict([('base_msgs', '/home/huang/Planning_with_ROS2/install/base_msgs')])}
+[0.001987] (planning) JobQueued: {'identifier': 'planning', 'dependencies': OrderedDict([('base_msgs', '/home/huang/Planning_with_ROS2/install/base_msgs')])}
+[0.002004] (base_msgs) JobStarted: {'identifier': 'base_msgs'}
+[0.048035] (base_msgs) JobProgress: {'identifier': 'base_msgs', 'progress': 'cmake'}
+[0.051264] (base_msgs) JobProgress: {'identifier': 'base_msgs', 'progress': 'build'}
+[0.052598] (base_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huang/Planning_with_ROS2/build/base_msgs', '--', '-j4', '-l4'], 'cwd': '/home/huang/Planning_with_ROS2/build/base_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'huang'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/huang/Planning_with_ROS2/install/planning/lib:/home/huang/Planning_with_ROS2/install/planning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huang'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1602'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1792'), ('BUNDLED_DEBUGPY_PATH', '/home/huang/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2559'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/huang/Planning_with_ROS2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huang'), ('JOURNAL_STREAM', '8:25352'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'huang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS2_PLANNING_COURSE_INSTALL', '/home/huang/Planning_with_ROS2/install'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huang/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/huang/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huang/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/huang:@/tmp/.ICE-unix/1746,unix/huang:/tmp/.ICE-unix/1746'), ('INVOCATION_ID', '64bcc95f35994c6f9dc488a53096eead'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/huang/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-80f9bd6ab3fcef57.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/huang/.config/Code/User/workspaceStorage/0631480e8bbd2d92c1f68dcf9f5fa548/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3L2RR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-39fc6e2b59.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/data_plot:/home/huang/Planning_with_ROS2/install/base_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/huang/Planning_with_ROS2/build/base_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'e276cfe8626845df1940a6c8c24be678'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/huang/Planning_with_ROS2/install/data_plot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/base_msgs:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[0.097102] (-) TimerEvent: {}
+[0.197887] (-) TimerEvent: {}
+[0.293263] (base_msgs) CommandEnded: {'returncode': 0}
+[0.298935] (base_msgs) JobProgress: {'identifier': 'base_msgs', 'progress': 'install'}
+[0.299035] (-) TimerEvent: {}
+[0.317327] (base_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/huang/Planning_with_ROS2/build/base_msgs'], 'cwd': '/home/huang/Planning_with_ROS2/build/base_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'huang'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/huang/Planning_with_ROS2/install/planning/lib:/home/huang/Planning_with_ROS2/install/planning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huang'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1602'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1792'), ('BUNDLED_DEBUGPY_PATH', '/home/huang/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2559'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/huang/Planning_with_ROS2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huang'), ('JOURNAL_STREAM', '8:25352'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'huang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS2_PLANNING_COURSE_INSTALL', '/home/huang/Planning_with_ROS2/install'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huang/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/huang/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huang/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/huang:@/tmp/.ICE-unix/1746,unix/huang:/tmp/.ICE-unix/1746'), ('INVOCATION_ID', '64bcc95f35994c6f9dc488a53096eead'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/huang/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-80f9bd6ab3fcef57.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/huang/.config/Code/User/workspaceStorage/0631480e8bbd2d92c1f68dcf9f5fa548/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3L2RR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-39fc6e2b59.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/data_plot:/home/huang/Planning_with_ROS2/install/base_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/huang/Planning_with_ROS2/build/base_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'e276cfe8626845df1940a6c8c24be678'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/huang/Planning_with_ROS2/install/data_plot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/base_msgs:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[0.335566] (base_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.335950] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/base_msgs/share/ament_index/resource_index/package_run_dependencies/base_msgs\n'}
+[0.336022] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/base_msgs/share/ament_index/resource_index/parent_prefix_path/base_msgs\n'}
+[0.336075] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/environment/ament_prefix_path.sh\n'}
+[0.336126] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/environment/ament_prefix_path.dsv\n'}
+[0.336176] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/environment/path.sh\n'}
+[0.336226] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/environment/path.dsv\n'}
+[0.336274] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/local_setup.bash\n'}
+[0.336323] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/local_setup.sh\n'}
+[0.336372] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/local_setup.zsh\n'}
+[0.336420] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/local_setup.dsv\n'}
+[0.336542] (base_msgs) StdoutLine: {'line': b'-- Installing: /home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/package.dsv\n'}
+[0.338437] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/base_msgs/share/ament_index/resource_index/packages/base_msgs\n'}
+[0.338629] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/cmake/base_msgsConfig.cmake\n'}
+[0.339554] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/cmake/base_msgsConfig-version.cmake\n'}
+[0.340005] (base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/package.xml\n'}
+[0.341415] (base_msgs) CommandEnded: {'returncode': 0}
+[0.399253] (base_msgs) JobEnded: {'identifier': 'base_msgs', 'rc': 0}
+[0.400319] (-) TimerEvent: {}
+[0.400497] (data_plot) JobStarted: {'identifier': 'data_plot'}
+[0.411816] (planning) JobStarted: {'identifier': 'planning'}
+[0.500897] (-) TimerEvent: {}
+[0.602032] (-) TimerEvent: {}
+[0.702893] (-) TimerEvent: {}
+[0.803488] (-) TimerEvent: {}
+[0.855158] (planning) JobProgress: {'identifier': 'planning', 'progress': 'cmake'}
+[0.856406] (planning) JobProgress: {'identifier': 'planning', 'progress': 'build'}
+[0.856928] (planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huang/Planning_with_ROS2/build/planning', '--', '-j4', '-l4'], 'cwd': '/home/huang/Planning_with_ROS2/build/planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'huang'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/huang/Planning_with_ROS2/install/planning/lib:/home/huang/Planning_with_ROS2/install/planning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huang'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1602'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1792'), ('BUNDLED_DEBUGPY_PATH', '/home/huang/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2559'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/huang/Planning_with_ROS2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huang'), ('JOURNAL_STREAM', '8:25352'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'huang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS2_PLANNING_COURSE_INSTALL', '/home/huang/Planning_with_ROS2/install'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huang/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/huang/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huang/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/huang:@/tmp/.ICE-unix/1746,unix/huang:/tmp/.ICE-unix/1746'), ('INVOCATION_ID', '64bcc95f35994c6f9dc488a53096eead'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/huang/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-80f9bd6ab3fcef57.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/huang/.config/Code/User/workspaceStorage/0631480e8bbd2d92c1f68dcf9f5fa548/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3L2RR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-39fc6e2b59.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/data_plot:/home/huang/Planning_with_ROS2/install/base_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/huang/Planning_with_ROS2/build/planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'e276cfe8626845df1940a6c8c24be678'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/huang/Planning_with_ROS2/install/data_plot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/huang/Planning_with_ROS2/install/base_msgs:/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[0.904270] (-) TimerEvent: {}
+[1.005264] (-) TimerEvent: {}
+[1.006743] (planning) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.107889] (-) TimerEvent: {}
+[1.209122] (-) TimerEvent: {}
+[1.309722] (-) TimerEvent: {}
+[1.363355] (planning) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.410399] (-) TimerEvent: {}
+[1.498944] (planning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.509191] (planning) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.511017] (-) TimerEvent: {}
+[1.541212] (planning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.580313] (planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.611390] (-) TimerEvent: {}
+[1.647919] (planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.712257] (-) TimerEvent: {}
+[1.780541] (planning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.792695] (planning) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.812804] (-) TimerEvent: {}
+[1.913306] (-) TimerEvent: {}
+[2.014158] (-) TimerEvent: {}
+[2.062677] (planning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.115128] (-) TimerEvent: {}
+[2.220602] (-) TimerEvent: {}
+[2.321405] (-) TimerEvent: {}
+[2.381844] (planning) StdoutLine: {'line': b'-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.428288] (-) TimerEvent: {}
+[2.506912] (planning) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.528518] (-) TimerEvent: {}
+[2.629882] (-) TimerEvent: {}
+[2.732009] (-) TimerEvent: {}
+[2.833016] (-) TimerEvent: {}
+[2.933891] (-) TimerEvent: {}
+[2.999047] (planning) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.007184] (data_plot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/data_plot', 'build', '--build-base', '/home/huang/Planning_with_ROS2/build/data_plot/build', 'install', '--record', '/home/huang/Planning_with_ROS2/build/data_plot/install.log', '--install-scripts', '$base/lib/data_plot', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huang/Planning_with_ROS2/src/data_plot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en_US:en', 'USER': 'huang', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/huang/Planning_with_ROS2/install/planning/lib:/home/huang/Planning_with_ROS2/install/planning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/huang', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.126.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1602', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1792', 'BUNDLED_DEBUGPY_PATH': '/home/huang/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2559', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/huang/Planning_with_ROS2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'huang', 'JOURNAL_STREAM': '8:25352', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'huang', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS2_PLANNING_COURSE_INSTALL': '/home/huang/Planning_with_ROS2/install', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/huang/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/huang/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huang/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/huang:@/tmp/.ICE-unix/1746,unix/huang:/tmp/.ICE-unix/1746', 'INVOCATION_ID': '64bcc95f35994c6f9dc488a53096eead', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huang/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-80f9bd6ab3fcef57.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/huang/.config/Code/User/workspaceStorage/0631480e8bbd2d92c1f68dcf9f5fa548/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3L2RR3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-39fc6e2b59.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/data_plot:/home/huang/Planning_with_ROS2/install/base_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/huang/Planning_with_ROS2/build/data_plot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'COPILOT_DEBUG_NONCE': 'e276cfe8626845df1940a6c8c24be678', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/huang/Planning_with_ROS2/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huang/Planning_with_ROS2/install/data_plot/lib/python3.10/site-packages:/home/huang/Planning_with_ROS2/install/data_plot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/huang/Planning_with_ROS2/install/base_msgs:/home/huang/Planning_with_ROS2/install/planning'}, 'shell': False}
+[3.035330] (-) TimerEvent: {}
+[3.126079] (planning) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[3.136710] (-) TimerEvent: {}
+[3.237645] (-) TimerEvent: {}
+[3.277102] (planning) StdoutLine: {'line': b'-- Found base_msgs: 0.0.0 (/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/cmake)\n'}
+[3.337817] (-) TimerEvent: {}
+[3.389175] (planning) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.438237] (-) TimerEvent: {}
+[3.495979] (data_plot) StdoutLine: {'line': b'running egg_info\n'}
+[3.496576] (data_plot) StdoutLine: {'line': b'writing ../../build/data_plot/data_plot.egg-info/PKG-INFO\n'}
+[3.499076] (data_plot) StdoutLine: {'line': b'writing dependency_links to ../../build/data_plot/data_plot.egg-info/dependency_links.txt\n'}
+[3.499577] (data_plot) StdoutLine: {'line': b'writing entry points to ../../build/data_plot/data_plot.egg-info/entry_points.txt\n'}
+[3.501388] (data_plot) StdoutLine: {'line': b'writing requirements to ../../build/data_plot/data_plot.egg-info/requires.txt\n'}
+[3.503116] (data_plot) StdoutLine: {'line': b'writing top-level names to ../../build/data_plot/data_plot.egg-info/top_level.txt\n'}
+[3.509347] (data_plot) StdoutLine: {'line': b"reading manifest file '../../build/data_plot/data_plot.egg-info/SOURCES.txt'\n"}
+[3.509768] (data_plot) StdoutLine: {'line': b"writing manifest file '../../build/data_plot/data_plot.egg-info/SOURCES.txt'\n"}
+[3.512849] (data_plot) StdoutLine: {'line': b'running build\n'}
+[3.513057] (data_plot) StdoutLine: {'line': b'running build_py\n'}
+[3.513182] (data_plot) StdoutLine: {'line': b'running install\n'}
+[3.513280] (data_plot) StdoutLine: {'line': b'running install_lib\n'}
+[3.517473] (data_plot) StdoutLine: {'line': b'running install_data\n'}
+[3.518194] (data_plot) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.529570] (data_plot) StdoutLine: {'line': b"removing '/home/huang/Planning_with_ROS2/install/data_plot/lib/python3.10/site-packages/data_plot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.530095] (data_plot) StdoutLine: {'line': b'Copying ../../build/data_plot/data_plot.egg-info to /home/huang/Planning_with_ROS2/install/data_plot/lib/python3.10/site-packages/data_plot-0.0.0-py3.10.egg-info\n'}
+[3.537494] (data_plot) StdoutLine: {'line': b'running install_scripts\n'}
+[3.538807] (-) TimerEvent: {}
+[3.611248] (data_plot) StdoutLine: {'line': b'Installing data_plot script to /home/huang/Planning_with_ROS2/install/data_plot/lib/data_plot\n'}
+[3.612119] (data_plot) StdoutLine: {'line': b"writing list of installed files to '/home/huang/Planning_with_ROS2/build/data_plot/install.log'\n"}
+[3.640454] (-) TimerEvent: {}
+[3.712451] (data_plot) CommandEnded: {'returncode': 0}
+[3.734640] (data_plot) JobEnded: {'identifier': 'data_plot', 'rc': 0}
+[3.742863] (-) TimerEvent: {}
+[3.818605] (planning) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.820851] (planning) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/huang/Planning_with_ROS2/src/planning/src/common/config_reader;/home/huang/Planning_with_ROS2/src/planning/src/common/math;/home/huang/Planning_with_ROS2/src/planning/src/decision_center;/home/huang/Planning_with_ROS2/src/planning/src/pnc_map_creator;/home/huang/Planning_with_ROS2/src/planning/src/pnc_map_creator/pnc_map_creator;/home/huang/Planning_with_ROS2/src/planning/src/pnc_map_creator/pnc_map_sturn;/home/huang/Planning_with_ROS2/src/planning/src/global_planner;/home/huang/Planning_with_ROS2/src/planning/src/global_planner/global_planner_normal;/home/huang/Planning_with_ROS2/src/planning/src/local_planner;/home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_path;/home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_speeds;/home/huang/Planning_with_ROS2/src/planning/src/reference_line;/home/huang/Planning_with_ROS2/src/planning/src/vehicle_info;/home/huang/Planning_with_ROS2/src/planning/src/vehicle_info/main_car;/home/huang/Planning_with_ROS2/src/planning/src/vehicle_info/obs_car;/home/huang/Planning_with_ROS2/src/planning/src/planning_process;/home/huang/Planning_with_ROS2/src/planning/src/move_cmd\n'}
+[3.821062] (planning) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.825546] (planning) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.843273] (planning) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.843521] (-) TimerEvent: {}
+[3.843656] (planning) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.845165] (planning) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.854059] (planning) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.943842] (-) TimerEvent: {}
+[4.044575] (-) TimerEvent: {}
+[4.148194] (-) TimerEvent: {}
+[4.213610] (planning) StdoutLine: {'line': b'-- Generating done\n'}
+[4.251193] (-) TimerEvent: {}
+[4.304980] (planning) StdoutLine: {'line': b'-- Build files have been written to: /home/huang/Planning_with_ROS2/build/planning\n'}
+[4.351878] (-) TimerEvent: {}
+[4.401393] (planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target car_move_cmd\x1b[0m\n'}
+[4.427339] (planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target config_reader\x1b[0m\n'}
+[4.438068] (planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mathlibs\x1b[0m\n'}
+[4.452659] (-) TimerEvent: {}
+[4.473565] (planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target planning_node\x1b[0m\n'}
+[4.526995] (planning) StdoutLine: {'line': b'[  5%] Built target car_move_cmd\n'}
+[4.553012] (-) TimerEvent: {}
+[4.561167] (planning) StdoutLine: {'line': b'[ 14%] Built target planning_node\n'}
+[4.578613] (planning) StdoutLine: {'line': b'[ 22%] Built target mathlibs\n'}
+[4.595886] (planning) StdoutLine: {'line': b'[ 28%] Built target config_reader\n'}
+[4.603183] (planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obs_move_cmd\x1b[0m\n'}
+[4.643982] (planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vehicle_info\x1b[0m\n'}
+[4.646447] (planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pnc_map_creator\x1b[0m\n'}
+[4.654184] (-) TimerEvent: {}
+[4.666322] (planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target global_planner\x1b[0m\n'}
+[4.690252] (planning) StdoutLine: {'line': b'[ 34%] Built target obs_move_cmd\n'}
+[4.703531] (planning) StdoutLine: {'line': b'[ 42%] Built target pnc_map_creator\n'}
+[4.746435] (planning) StdoutLine: {'line': b'[ 51%] Built target vehicle_info\n'}
+[4.755234] (planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target reference_line\x1b[0m\n'}
+[4.755444] (-) TimerEvent: {}
+[4.765267] (planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pnc_map_server\x1b[0m\n'}
+[4.800658] (planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target decision_center\x1b[0m\n'}
+[4.807207] (planning) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object src/global_planner/CMakeFiles/global_planner.dir/global_planner_normal/global_planner_normal.cpp.o\x1b[0m\n'}
+[4.852622] (planning) StdoutLine: {'line': b'[ 60%] Built target pnc_map_server\n'}
+[4.858261] (-) TimerEvent: {}
+[4.893542] (planning) StdoutLine: {'line': b'[ 68%] Built target decision_center\n'}
+[4.898580] (planning) StdoutLine: {'line': b'[ 74%] Built target reference_line\n'}
+[4.946099] (planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target local_planner\x1b[0m\n'}
+[4.958862] (-) TimerEvent: {}
+[5.044304] (planning) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_planner.cpp.o\x1b[0m\n'}
+[5.051047] (planning) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_smoother.cpp.o\x1b[0m\n'}
+[5.055914] (planning) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_planner.cpp.o\x1b[0m\n'}
+[5.060554] (-) TimerEvent: {}
+[5.161441] (-) TimerEvent: {}
+[5.265561] (-) TimerEvent: {}
+[5.366655] (-) TimerEvent: {}
+[5.468558] (-) TimerEvent: {}
+[5.573834] (-) TimerEvent: {}
+[5.675124] (-) TimerEvent: {}
+[5.775971] (-) TimerEvent: {}
+[5.876853] (-) TimerEvent: {}
+[5.978441] (-) TimerEvent: {}
+[6.081132] (-) TimerEvent: {}
+[6.184967] (-) TimerEvent: {}
+[6.287889] (-) TimerEvent: {}
+[6.391774] (-) TimerEvent: {}
+[6.494156] (-) TimerEvent: {}
+[6.595030] (-) TimerEvent: {}
+[6.696918] (-) TimerEvent: {}
+[6.799542] (-) TimerEvent: {}
+[6.900152] (-) TimerEvent: {}
+[7.003918] (-) TimerEvent: {}
+[7.104944] (-) TimerEvent: {}
+[7.205889] (-) TimerEvent: {}
+[7.307981] (-) TimerEvent: {}
+[7.412947] (-) TimerEvent: {}
+[7.513917] (-) TimerEvent: {}
+[7.618704] (-) TimerEvent: {}
+[7.721914] (-) TimerEvent: {}
+[7.825214] (-) TimerEvent: {}
+[7.932282] (-) TimerEvent: {}
+[8.033858] (-) TimerEvent: {}
+[8.142872] (-) TimerEvent: {}
+[8.252180] (-) TimerEvent: {}
+[8.352950] (-) TimerEvent: {}
+[8.454835] (-) TimerEvent: {}
+[8.557015] (-) TimerEvent: {}
+[8.659016] (-) TimerEvent: {}
+[8.762339] (-) TimerEvent: {}
+[8.862997] (-) TimerEvent: {}
+[8.964932] (-) TimerEvent: {}
+[9.080778] (-) TimerEvent: {}
+[9.189976] (-) TimerEvent: {}
+[9.290607] (-) TimerEvent: {}
+[9.398350] (-) TimerEvent: {}
+[9.501423] (-) TimerEvent: {}
+[9.604029] (-) TimerEvent: {}
+[9.708439] (-) TimerEvent: {}
+[9.808960] (-) TimerEvent: {}
+[9.917581] (-) TimerEvent: {}
+[10.025006] (-) TimerEvent: {}
+[10.125964] (-) TimerEvent: {}
+[10.227005] (-) TimerEvent: {}
+[10.328288] (-) TimerEvent: {}
+[10.433094] (-) TimerEvent: {}
+[10.541412] (-) TimerEvent: {}
+[10.645190] (-) TimerEvent: {}
+[10.745894] (-) TimerEvent: {}
+[10.846424] (-) TimerEvent: {}
+[10.950531] (-) TimerEvent: {}
+[11.053025] (-) TimerEvent: {}
+[11.154088] (-) TimerEvent: {}
+[11.260288] (-) TimerEvent: {}
+[11.377956] (-) TimerEvent: {}
+[11.478873] (-) TimerEvent: {}
+[11.583433] (-) TimerEvent: {}
+[11.683963] (-) TimerEvent: {}
+[11.786737] (-) TimerEvent: {}
+[11.888275] (-) TimerEvent: {}
+[11.988890] (-) TimerEvent: {}
+[12.090736] (-) TimerEvent: {}
+[12.199114] (-) TimerEvent: {}
+[12.300151] (-) TimerEvent: {}
+[12.401529] (-) TimerEvent: {}
+[12.509640] (-) TimerEvent: {}
+[12.610933] (-) TimerEvent: {}
+[12.713055] (-) TimerEvent: {}
+[12.813879] (-) TimerEvent: {}
+[12.915514] (-) TimerEvent: {}
+[13.016999] (-) TimerEvent: {}
+[13.120299] (-) TimerEvent: {}
+[13.221138] (-) TimerEvent: {}
+[13.321902] (-) TimerEvent: {}
+[13.426095] (-) TimerEvent: {}
+[13.526692] (-) TimerEvent: {}
+[13.627950] (-) TimerEvent: {}
+[13.734216] (-) TimerEvent: {}
+[13.836861] (-) TimerEvent: {}
+[13.938044] (-) TimerEvent: {}
+[14.038979] (-) TimerEvent: {}
+[14.140995] (-) TimerEvent: {}
+[14.242001] (-) TimerEvent: {}
+[14.344247] (-) TimerEvent: {}
+[14.448727] (-) TimerEvent: {}
+[14.549997] (-) TimerEvent: {}
+[14.650971] (-) TimerEvent: {}
+[14.751920] (-) TimerEvent: {}
+[14.853002] (-) TimerEvent: {}
+[14.955925] (-) TimerEvent: {}
+[15.057410] (-) TimerEvent: {}
+[15.159880] (-) TimerEvent: {}
+[15.260468] (-) TimerEvent: {}
+[15.361779] (-) TimerEvent: {}
+[15.463589] (-) TimerEvent: {}
+[15.570147] (-) TimerEvent: {}
+[15.671942] (-) TimerEvent: {}
+[15.773503] (-) TimerEvent: {}
+[15.874680] (-) TimerEvent: {}
+[15.979170] (-) TimerEvent: {}
+[16.083128] (-) TimerEvent: {}
+[16.183870] (-) TimerEvent: {}
+[16.286407] (-) TimerEvent: {}
+[16.386903] (-) TimerEvent: {}
+[16.490008] (-) TimerEvent: {}
+[16.590903] (-) TimerEvent: {}
+[16.698968] (-) TimerEvent: {}
+[16.802380] (-) TimerEvent: {}
+[16.907075] (-) TimerEvent: {}
+[16.917362] (planning) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_smoother.cpp.o\x1b[0m\n'}
+[16.960207] (planning) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared library libglobal_planner.so\x1b[0m\n'}
+[17.007721] (-) TimerEvent: {}
+[17.109434] (-) TimerEvent: {}
+[17.214721] (-) TimerEvent: {}
+[17.319867] (-) TimerEvent: {}
+[17.423139] (-) TimerEvent: {}
+[17.524476] (-) TimerEvent: {}
+[17.626290] (-) TimerEvent: {}
+[17.728586] (-) TimerEvent: {}
+[17.830939] (-) TimerEvent: {}
+[17.832009] (planning) StdoutLine: {'line': b'[ 88%] Built target global_planner\n'}
+[17.890023] (planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target global_path_server\x1b[0m\n'}
+[17.932255] (-) TimerEvent: {}
+[17.993890] (planning) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object src/global_planner/CMakeFiles/global_path_server.dir/global_path_server.cpp.o\x1b[0m\n'}
+[18.032902] (-) TimerEvent: {}
+[18.135974] (-) TimerEvent: {}
+[18.236632] (-) TimerEvent: {}
+[18.309299] (planning) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o\x1b[0m\n'}
+[18.336996] (-) TimerEvent: {}
+[18.438792] (-) TimerEvent: {}
+[18.539751] (-) TimerEvent: {}
+[18.641602] (-) TimerEvent: {}
+[18.745781] (-) TimerEvent: {}
+[18.846853] (-) TimerEvent: {}
+[18.949856] (-) TimerEvent: {}
+[19.050833] (-) TimerEvent: {}
+[19.151626] (-) TimerEvent: {}
+[19.252312] (-) TimerEvent: {}
+[19.355028] (-) TimerEvent: {}
+[19.455656] (-) TimerEvent: {}
+[19.558178] (-) TimerEvent: {}
+[19.661299] (-) TimerEvent: {}
+[19.763293] (-) TimerEvent: {}
+[19.863926] (-) TimerEvent: {}
+[19.964759] (-) TimerEvent: {}
+[20.066601] (-) TimerEvent: {}
+[20.172466] (-) TimerEvent: {}
+[20.275700] (-) TimerEvent: {}
+[20.377858] (-) TimerEvent: {}
+[20.482447] (-) TimerEvent: {}
+[20.583426] (-) TimerEvent: {}
+[20.686231] (-) TimerEvent: {}
+[20.786772] (-) TimerEvent: {}
+[20.887892] (-) TimerEvent: {}
+[20.988841] (-) TimerEvent: {}
+[21.090735] (-) TimerEvent: {}
+[21.194896] (-) TimerEvent: {}
+[21.295462] (-) TimerEvent: {}
+[21.395966] (-) TimerEvent: {}
+[21.496905] (-) TimerEvent: {}
+[21.598045] (-) TimerEvent: {}
+[21.701269] (-) TimerEvent: {}
+[21.801965] (-) TimerEvent: {}
+[21.904945] (-) TimerEvent: {}
+[22.005458] (-) TimerEvent: {}
+[22.107900] (-) TimerEvent: {}
+[22.209042] (-) TimerEvent: {}
+[22.311241] (-) TimerEvent: {}
+[22.413983] (-) TimerEvent: {}
+[22.515522] (-) TimerEvent: {}
+[22.618425] (-) TimerEvent: {}
+[22.721053] (-) TimerEvent: {}
+[22.824056] (-) TimerEvent: {}
+[22.924994] (-) TimerEvent: {}
+[23.026967] (-) TimerEvent: {}
+[23.129140] (-) TimerEvent: {}
+[23.233043] (-) TimerEvent: {}
+[23.334032] (-) TimerEvent: {}
+[23.435259] (-) TimerEvent: {}
+[23.535904] (-) TimerEvent: {}
+[23.639011] (-) TimerEvent: {}
+[23.739949] (-) TimerEvent: {}
+[23.840540] (-) TimerEvent: {}
+[23.941663] (-) TimerEvent: {}
+[24.043679] (-) TimerEvent: {}
+[24.144392] (-) TimerEvent: {}
+[24.248037] (-) TimerEvent: {}
+[24.348867] (-) TimerEvent: {}
+[24.414239] (planning) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library liblocal_planner.so\x1b[0m\n'}
+[24.450021] (-) TimerEvent: {}
+[24.550937] (-) TimerEvent: {}
+[24.616047] (planning) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable global_path_server\x1b[0m\n'}
+[24.638586] (planning) StdoutLine: {'line': b'[100%] Built target local_planner\n'}
+[24.651821] (-) TimerEvent: {}
+[24.752542] (-) TimerEvent: {}
+[24.853018] (-) TimerEvent: {}
+[24.862106] (planning) StdoutLine: {'line': b'[100%] Built target global_path_server\n'}
+[24.900636] (planning) CommandEnded: {'returncode': 0}
+[24.904259] (planning) JobProgress: {'identifier': 'planning', 'progress': 'install'}
+[24.913431] (planning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/huang/Planning_with_ROS2/build/planning'], 'cwd': '/home/huang/Planning_with_ROS2/build/planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'huang'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/huang/Planning_with_ROS2/install/planning/lib:/home/huang/Planning_with_ROS2/install/planning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/huang'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1602'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1792'), ('BUNDLED_DEBUGPY_PATH', '/home/huang/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2559'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/huang/Planning_with_ROS2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'huang'), ('JOURNAL_STREAM', '8:25352'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'huang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS2_PLANNING_COURSE_INSTALL', '/home/huang/Planning_with_ROS2/install'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/huang/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/huang/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huang/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/huang:@/tmp/.ICE-unix/1746,unix/huang:/tmp/.ICE-unix/1746'), ('INVOCATION_ID', '64bcc95f35994c6f9dc488a53096eead'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/huang/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-80f9bd6ab3fcef57.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/huang/.config/Code/User/workspaceStorage/0631480e8bbd2d92c1f68dcf9f5fa548/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3L2RR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-39fc6e2b59.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/data_plot:/home/huang/Planning_with_ROS2/install/base_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/huang/Planning_with_ROS2/build/planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'e276cfe8626845df1940a6c8c24be678'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/huang/Planning_with_ROS2/install/data_plot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/huang/Planning_with_ROS2/install/base_msgs:/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble')]), 'shell': False}
+[24.927582] (planning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.929758] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/libconfig_reader.so\n'}
+[24.932752] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/libmathlibs.so\n'}
+[24.936266] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/libdecision_center.so\n'}
+[24.937807] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/libpnc_map_creator.so\n'}
+[24.938996] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/planning/pnc_map_server\n'}
+[24.940653] (planning) StdoutLine: {'line': b'-- Installing: /home/huang/Planning_with_ROS2/install/planning/lib/libglobal_planner.so\n'}
+[24.944308] (planning) StdoutLine: {'line': b'-- Set runtime path of "/home/huang/Planning_with_ROS2/install/planning/lib/libglobal_planner.so" to ""\n'}
+[24.944600] (planning) StdoutLine: {'line': b'-- Installing: /home/huang/Planning_with_ROS2/install/planning/lib/planning/global_path_server\n'}
+[24.945528] (planning) StdoutLine: {'line': b'-- Set runtime path of "/home/huang/Planning_with_ROS2/install/planning/lib/planning/global_path_server" to ""\n'}
+[24.946416] (planning) StdoutLine: {'line': b'-- Installing: /home/huang/Planning_with_ROS2/install/planning/lib/liblocal_planner.so\n'}
+[24.949309] (planning) StdoutLine: {'line': b'-- Set runtime path of "/home/huang/Planning_with_ROS2/install/planning/lib/liblocal_planner.so" to ""\n'}
+[24.949873] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/libreference_line.so\n'}
+[24.953645] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/libvehicle_info.so\n'}
+[24.954032] (-) TimerEvent: {}
+[24.954420] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/planning/planning_node\n'}
+[24.957565] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/planning/car_move_cmd\n'}
+[24.957904] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/planning/obs_move_cmd\n'}
+[24.957981] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/config\n'}
+[24.958340] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/launch\n'}
+[24.959044] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/urdf\n'}
+[24.959377] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/urdf/main_car\n'}
+[24.959909] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/urdf/obs_car\n'}
+[24.960715] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/rviz\n'}
+[24.963175] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/ament_index/resource_index/package_run_dependencies/planning\n'}
+[24.963309] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/ament_index/resource_index/parent_prefix_path/planning\n'}
+[24.963364] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/environment/ament_prefix_path.sh\n'}
+[24.963415] (planning) StdoutLine: {'line': b'-- Installing: /home/huang/Planning_with_ROS2/install/planning/share/planning/environment/ament_prefix_path.dsv\n'}
+[24.964195] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/environment/path.sh\n'}
+[24.964401] (planning) StdoutLine: {'line': b'-- Installing: /home/huang/Planning_with_ROS2/install/planning/share/planning/environment/path.dsv\n'}
+[24.966090] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/local_setup.bash\n'}
+[24.966322] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/local_setup.sh\n'}
+[24.966392] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/local_setup.zsh\n'}
+[24.966445] (planning) StdoutLine: {'line': b'-- Installing: /home/huang/Planning_with_ROS2/install/planning/share/planning/local_setup.dsv\n'}
+[24.968791] (planning) StdoutLine: {'line': b'-- Installing: /home/huang/Planning_with_ROS2/install/planning/share/planning/package.dsv\n'}
+[24.968972] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/ament_index/resource_index/packages/planning\n'}
+[24.969035] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/cmake/planningConfig.cmake\n'}
+[24.969087] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/cmake/planningConfig-version.cmake\n'}
+[24.969139] (planning) StdoutLine: {'line': b'-- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/package.xml\n'}
+[24.974113] (planning) CommandEnded: {'returncode': 0}
+[25.027945] (planning) JobEnded: {'identifier': 'planning', 'rc': 0}
+[25.029845] (-) EventReactorShutdown: {}

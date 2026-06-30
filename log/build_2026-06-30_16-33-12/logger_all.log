@@ -1,0 +1,261 @@
+[0.561s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.562s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x734213b80160>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x734213c797e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x734213c797e0>>)
+[1.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.163s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/huang/Planning_with_ROS2'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['ignore', 'ignore_ament_install']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'ignore'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'ignore_ament_install'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['colcon_pkg']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'colcon_pkg'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['colcon_meta']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'colcon_meta'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['ros']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'ros'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['cmake', 'python']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'cmake'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'python'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extensions ['python_setup_py']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(doc) by extension 'python_setup_py'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs) by extension 'ignore'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs) by extension 'ignore_ament_install'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs) by extensions ['colcon_pkg']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs) by extension 'colcon_pkg'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs) by extensions ['colcon_meta']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs) by extension 'colcon_meta'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs) by extensions ['ros']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_msgs) by extension 'ros'
+[1.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_msgs' with type 'ros.ament_cmake' and name 'base_msgs'
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot) by extensions ['ignore', 'ignore_ament_install']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot) by extension 'ignore'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot) by extension 'ignore_ament_install'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot) by extensions ['colcon_pkg']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot) by extension 'colcon_pkg'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot) by extensions ['colcon_meta']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot) by extension 'colcon_meta'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot) by extensions ['ros']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_plot) by extension 'ros'
+[1.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/data_plot' with type 'ros.ament_python' and name 'data_plot'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['ignore', 'ignore_ament_install']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'ignore'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'ignore_ament_install'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['colcon_pkg']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'colcon_pkg'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['colcon_meta']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'colcon_meta'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['ros']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'ros'
+[1.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/planning' with type 'ros.ament_cmake' and name 'planning'
+[1.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.283s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/huang/Planning_with_ROS2/install
+[1.287s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[1.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.439s] Level 5:colcon.colcon_core.verb:set package 'base_msgs' build argument 'cmake_args' from command line to 'None'
+[1.439s] Level 5:colcon.colcon_core.verb:set package 'base_msgs' build argument 'cmake_target' from command line to 'None'
+[1.439s] Level 5:colcon.colcon_core.verb:set package 'base_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.439s] Level 5:colcon.colcon_core.verb:set package 'base_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.439s] Level 5:colcon.colcon_core.verb:set package 'base_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.439s] Level 5:colcon.colcon_core.verb:set package 'base_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.440s] Level 5:colcon.colcon_core.verb:set package 'base_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.440s] Level 5:colcon.colcon_core.verb:set package 'base_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.440s] Level 5:colcon.colcon_core.verb:set package 'base_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.440s] DEBUG:colcon.colcon_core.verb:Building package 'base_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huang/Planning_with_ROS2/build/base_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huang/Planning_with_ROS2/install/base_msgs', 'merge_install': False, 'path': '/home/huang/Planning_with_ROS2/src/base_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.440s] Level 5:colcon.colcon_core.verb:set package 'data_plot' build argument 'cmake_args' from command line to 'None'
+[1.440s] Level 5:colcon.colcon_core.verb:set package 'data_plot' build argument 'cmake_target' from command line to 'None'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'data_plot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'data_plot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'data_plot' build argument 'cmake_clean_first' from command line to 'False'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'data_plot' build argument 'cmake_force_configure' from command line to 'False'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'data_plot' build argument 'ament_cmake_args' from command line to 'None'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'data_plot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'data_plot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.441s] DEBUG:colcon.colcon_core.verb:Building package 'data_plot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huang/Planning_with_ROS2/build/data_plot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huang/Planning_with_ROS2/install/data_plot', 'merge_install': False, 'path': '/home/huang/Planning_with_ROS2/src/data_plot', 'symlink_install': False, 'test_result_base': None}
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_args' from command line to 'None'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_target' from command line to 'None'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_clean_cache' from command line to 'False'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_clean_first' from command line to 'False'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_force_configure' from command line to 'False'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'ament_cmake_args' from command line to 'None'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'catkin_cmake_args' from command line to 'None'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.442s] DEBUG:colcon.colcon_core.verb:Building package 'planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huang/Planning_with_ROS2/build/planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huang/Planning_with_ROS2/install/planning', 'merge_install': False, 'path': '/home/huang/Planning_with_ROS2/src/planning', 'symlink_install': False, 'test_result_base': None}
+[1.442s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.444s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/huang/Planning_with_ROS2/src/base_msgs' with build type 'ament_cmake'
+[1.444s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/huang/Planning_with_ROS2/src/base_msgs'
+[1.455s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/Planning_with_ROS2/build/base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --build /home/huang/Planning_with_ROS2/build/base_msgs -- -j4 -l4
+[1.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/Planning_with_ROS2/build/base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --build /home/huang/Planning_with_ROS2/build/base_msgs -- -j4 -l4
+[1.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/Planning_with_ROS2/build/base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --install /home/huang/Planning_with_ROS2/build/base_msgs
+[1.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_msgs)
+[1.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/Planning_with_ROS2/build/base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --install /home/huang/Planning_with_ROS2/build/base_msgs
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/base_msgs' for CMake module files
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/base_msgs' for CMake config files
+[1.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_msgs', 'cmake_prefix_path')
+[1.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.ps1'
+[1.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.dsv'
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.sh'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/base_msgs/bin'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/base_msgs/lib/pkgconfig/base_msgs.pc'
+[1.679s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/base_msgs/lib/python3.10/site-packages'
+[1.679s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/base_msgs/bin'
+[1.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/package.ps1'
+[1.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/package.dsv'
+[1.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/package.sh'
+[1.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/package.bash'
+[1.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/package.zsh'
+[1.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/Planning_with_ROS2/install/base_msgs/share/colcon-core/packages/base_msgs)
+[1.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_msgs)
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/base_msgs' for CMake module files
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/base_msgs' for CMake config files
+[1.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_msgs', 'cmake_prefix_path')
+[1.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.ps1'
+[1.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.dsv'
+[1.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/hook/cmake_prefix_path.sh'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/base_msgs/bin'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/base_msgs/lib/pkgconfig/base_msgs.pc'
+[1.693s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/base_msgs/lib/python3.10/site-packages'
+[1.693s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/base_msgs/bin'
+[1.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/package.ps1'
+[1.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/package.dsv'
+[1.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/package.sh'
+[1.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/package.bash'
+[1.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/package.zsh'
+[1.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/Planning_with_ROS2/install/base_msgs/share/colcon-core/packages/base_msgs)
+[1.700s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/huang/Planning_with_ROS2/src/data_plot' with build type 'ament_python'
+[1.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_plot', 'ament_prefix_path')
+[1.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/Planning_with_ROS2/install/data_plot/share/data_plot/hook/ament_prefix_path.ps1'
+[1.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/Planning_with_ROS2/install/data_plot/share/data_plot/hook/ament_prefix_path.dsv'
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/Planning_with_ROS2/install/data_plot/share/data_plot/hook/ament_prefix_path.sh'
+[1.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.705s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.709s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/huang/Planning_with_ROS2/src/planning' with build type 'ament_cmake'
+[1.709s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/huang/Planning_with_ROS2/src/planning'
+[1.710s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.710s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.027s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/huang/Planning_with_ROS2/src/data_plot'
+[2.027s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.027s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/Planning_with_ROS2/build/planning': CMAKE_PREFIX_PATH=/home/huang/Planning_with_ROS2/install/base_msgs:/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --build /home/huang/Planning_with_ROS2/build/planning -- -j4 -l4
+[3.560s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: update_catalog, build, clean, extract_messages, build_scripts, setopt, upload_docs, test, egg_info, install_egg_info, build_ext, sdist, bdist_rpm, install_lib, check, init_catalog, install_scripts, saveopts, install_headers, compile_catalog, bdist_egg, dist_info, easy_install, build_sphinx, rotate, develop, build_clib, bdist, install, build_py, symlink_data, register, bdist_dumb, install_data, upload, alias, bdist_wheel
+[3.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huang/Planning_with_ROS2/src/data_plot': CMAKE_PREFIX_PATH=/home/huang/Planning_with_ROS2/install/base_msgs:/home/huang/Planning_with_ROS2/install/planning PYTHONPATH=/home/huang/Planning_with_ROS2/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huang/Planning_with_ROS2/install/data_plot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_plot build --build-base /home/huang/Planning_with_ROS2/build/data_plot/build install --record /home/huang/Planning_with_ROS2/build/data_plot/install.log --install-scripts $base/lib/data_plot --single-version-externally-managed install_data
+[4.104s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/data_plot' for CMake module files
+[4.104s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/data_plot' for CMake config files
+[4.105s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/data_plot/lib'
+[4.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/Planning_with_ROS2/src/data_plot' returned '0': CMAKE_PREFIX_PATH=/home/huang/Planning_with_ROS2/install/base_msgs:/home/huang/Planning_with_ROS2/install/planning PYTHONPATH=/home/huang/Planning_with_ROS2/build/data_plot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huang/Planning_with_ROS2/install/data_plot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_plot build --build-base /home/huang/Planning_with_ROS2/build/data_plot/build install --record /home/huang/Planning_with_ROS2/build/data_plot/install.log --install-scripts $base/lib/data_plot --single-version-externally-managed install_data
+[4.108s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/data_plot/bin'
+[4.108s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/data_plot/lib/pkgconfig/data_plot.pc'
+[4.109s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/data_plot/lib/python3.10/site-packages'
+[4.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_plot', 'pythonpath')
+[4.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/Planning_with_ROS2/install/data_plot/share/data_plot/hook/pythonpath.ps1'
+[4.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/Planning_with_ROS2/install/data_plot/share/data_plot/hook/pythonpath.dsv'
+[4.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/Planning_with_ROS2/install/data_plot/share/data_plot/hook/pythonpath.sh'
+[4.116s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/data_plot/bin'
+[4.117s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_plot)
+[4.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/data_plot/share/data_plot/package.ps1'
+[4.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/Planning_with_ROS2/install/data_plot/share/data_plot/package.dsv'
+[4.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/data_plot/share/data_plot/package.sh'
+[4.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/data_plot/share/data_plot/package.bash'
+[4.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/data_plot/share/data_plot/package.zsh'
+[4.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/Planning_with_ROS2/install/data_plot/share/colcon-core/packages/data_plot)
+[14.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huang/Planning_with_ROS2/build/planning' returned '2': CMAKE_PREFIX_PATH=/home/huang/Planning_with_ROS2/install/base_msgs:/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --build /home/huang/Planning_with_ROS2/build/planning -- -j4 -l4
+[14.593s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(planning)
+[14.594s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/planning' for CMake module files
+[14.594s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/planning' for CMake config files
+[14.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('planning', 'cmake_prefix_path')
+[14.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/Planning_with_ROS2/install/planning/share/planning/hook/cmake_prefix_path.ps1'
+[14.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/Planning_with_ROS2/install/planning/share/planning/hook/cmake_prefix_path.dsv'
+[14.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/Planning_with_ROS2/install/planning/share/planning/hook/cmake_prefix_path.sh'
+[14.598s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/planning/lib'
+[14.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('planning', 'ld_library_path_lib')
+[14.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/Planning_with_ROS2/install/planning/share/planning/hook/ld_library_path_lib.ps1'
+[14.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huang/Planning_with_ROS2/install/planning/share/planning/hook/ld_library_path_lib.dsv'
+[14.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huang/Planning_with_ROS2/install/planning/share/planning/hook/ld_library_path_lib.sh'
+[14.601s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/planning/bin'
+[14.601s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/planning/lib/pkgconfig/planning.pc'
+[14.602s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/planning/lib/python3.10/site-packages'
+[14.602s] Level 1:colcon.colcon_core.environment:checking '/home/huang/Planning_with_ROS2/install/planning/bin'
+[14.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/planning/share/planning/package.ps1'
+[14.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huang/Planning_with_ROS2/install/planning/share/planning/package.dsv'
+[14.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/planning/share/planning/package.sh'
+[14.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/planning/share/planning/package.bash'
+[14.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/huang/Planning_with_ROS2/install/planning/share/planning/package.zsh'
+[14.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huang/Planning_with_ROS2/install/planning/share/colcon-core/packages/planning)
+[14.619s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.620s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.620s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[14.620s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.630s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.630s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.630s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.745s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.745s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huang/Planning_with_ROS2/install/local_setup.ps1'
+[14.746s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/huang/Planning_with_ROS2/install/_local_setup_util_ps1.py'
+[14.749s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huang/Planning_with_ROS2/install/setup.ps1'
+[14.753s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huang/Planning_with_ROS2/install/local_setup.sh'
+[14.754s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/huang/Planning_with_ROS2/install/_local_setup_util_sh.py'
+[14.756s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huang/Planning_with_ROS2/install/setup.sh'
+[14.758s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huang/Planning_with_ROS2/install/local_setup.bash'
+[14.760s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huang/Planning_with_ROS2/install/setup.bash'
+[14.762s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huang/Planning_with_ROS2/install/local_setup.zsh'
+[14.764s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huang/Planning_with_ROS2/install/setup.zsh'

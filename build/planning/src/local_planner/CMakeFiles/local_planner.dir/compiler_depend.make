@@ -685,7 +685,282 @@ src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_planner.cpp
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /home/huang/Planning_with_ROS2/src/planning/src/common/config_reader/config_reader.h \
+  /usr/include/yaml-cpp/yaml.h \
+  /usr/include/yaml-cpp/parser.h \
+  /usr/include/yaml-cpp/dll.h \
+  /usr/include/yaml-cpp/emitter.h \
+  /usr/include/c++/11/cstddef \
+  /usr/include/yaml-cpp/binary.h \
+  /usr/include/yaml-cpp/emitterdef.h \
+  /usr/include/yaml-cpp/emittermanip.h \
+  /usr/include/yaml-cpp/null.h \
+  /usr/include/yaml-cpp/ostream_wrapper.h \
+  /usr/include/yaml-cpp/emitterstyle.h \
+  /usr/include/yaml-cpp/stlemitter.h \
+  /usr/include/yaml-cpp/exceptions.h \
+  /usr/include/yaml-cpp/mark.h \
+  /usr/include/yaml-cpp/noexcept.h \
+  /usr/include/yaml-cpp/traits.h \
+  /usr/include/yaml-cpp/node/node.h \
+  /usr/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /usr/include/yaml-cpp/node/ptr.h \
+  /usr/include/yaml-cpp/node/type.h \
+  /usr/include/yaml-cpp/node/impl.h \
+  /usr/include/yaml-cpp/node/detail/memory.h \
+  /usr/include/yaml-cpp/node/detail/node.h \
+  /usr/include/yaml-cpp/node/detail/node_ref.h \
+  /usr/include/yaml-cpp/node/detail/node_data.h \
+  /usr/include/yaml-cpp/node/detail/node_iterator.h \
+  /usr/include/yaml-cpp/node/iterator.h \
+  /usr/include/yaml-cpp/node/detail/iterator.h \
+  /usr/include/yaml-cpp/node/convert.h \
+  /usr/include/yaml-cpp/node/detail/impl.h \
+  /usr/include/yaml-cpp/node/parse.h \
+  /usr/include/yaml-cpp/node/emit.h \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
+  /home/huang/Planning_with_ROS2/src/planning/src/common/math/curve.h \
+  /home/huang/Planning_with_ROS2/src/planning/src/common/math/polynomial_curve.h \
+  /usr/local/include/eigen-5.0.0/Eigen/Dense \
+  /usr/local/include/eigen-5.0.0/Eigen/Core \
+  /usr/local/include/eigen-5.0.0/Eigen/Version \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Macros.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/ConfigureVectorization.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/include/c++/11/complex \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/MKL_support.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Constants.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Meta.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Assert.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/ForwardDeclarations.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/StaticAssert.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/XprHelper.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Memory.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/IntegralConstant.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Serializer.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/SymbolicIndex.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/EmulateArray.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/MoreMeta.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/NumTraits.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/MathFunctions.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/RandomImpl.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/GenericPacketMath.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/MathFunctionsImpl.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/ConjHelper.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/Half.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/BFloat16.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/SSE/PacketMath.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/SSE/Reductions.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/SSE/TypeCasting.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/SSE/MathFunctions.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/SSE/Complex.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/Settings.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/TernaryFunctors.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/BinaryFunctors.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/UnaryFunctors.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/NullaryFunctors.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/StlFunctors.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/AssignmentFunctors.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/IndexedViewHelper.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/ReshapedHelper.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/ArithmeticSequence.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/IO.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/DenseCoeffsBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/DenseBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/CommonCwiseUnaryOps.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/BlockMethods.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/IndexedViewMethods.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/ReshapedMethods.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/ReshapedMethods.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/MatrixBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/CommonCwiseBinaryOps.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/MatrixCwiseUnaryOps.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/MatrixCwiseBinaryOps.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/EigenBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Product.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CoreEvaluators.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/AssignEvaluator.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/RealView.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Assign.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/ArrayBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/ArrayCwiseUnaryOps.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/ArrayCwiseBinaryOps.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/BlasUtil.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/DenseStorage.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/NestByValue.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/ReturnByValue.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/NoAlias.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/PlainObjectBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Matrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Array.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Fill.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CwiseTernaryOp.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CwiseBinaryOp.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CwiseUnaryOp.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CwiseNullaryOp.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CwiseUnaryView.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/InnerProduct.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Dot.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/StableNorm.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Stride.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/MapBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Map.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Ref.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Block.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/VectorBlock.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/IndexedView.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Reshaped.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Transpose.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/DiagonalMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Diagonal.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/DiagonalProduct.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/SkewSymmetricMatrix3.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Redux.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Visitor.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/FindCoeff.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Fuzzy.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Swap.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CommaInitializer.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/GeneralProduct.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Solve.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Inverse.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/SolverBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/PermutationMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Transpositions.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/TriangularMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/SelfAdjointView.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/DeviceWrapper.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/Parallelizer.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/ProductEvaluators.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/GeneralMatrixVector.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/SolveTriangular.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/SelfadjointProduct.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/TriangularMatrixVector.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/TriangularSolverVector.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/BandMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CoreIterators.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/ConditionEstimator.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Select.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/VectorwiseOp.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/PartialReduxEvaluator.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Random.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Replicate.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Reverse.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/ArrayWrapper.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/StlIterators.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/GlobalFunctions.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/local/include/eigen-5.0.0/Eigen/LU \
+  /usr/local/include/eigen-5.0.0/Eigen/src/misc/Kernel.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/misc/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/misc/Image.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/LU/FullPivLU.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/LU/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/LU/PartialPivLU.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/LU/Determinant.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/LU/InverseImpl.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/LU/arch/InverseSize4.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/LU/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/Cholesky \
+  /usr/local/include/eigen-5.0.0/Eigen/Jacobi \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Jacobi/Jacobi.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Jacobi/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Cholesky/LLT.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Cholesky/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Cholesky/LDLT.h \
+  /usr/local/include/eigen-5.0.0/Eigen/QR \
+  /usr/local/include/eigen-5.0.0/Eigen/Householder \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Householder/Householder.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Householder/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Householder/HouseholderSequence.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Householder/BlockHouseholder.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/QR/HouseholderQR.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/QR/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/QR/FullPivHouseholderQR.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/QR/ColPivHouseholderQR.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  /usr/local/include/eigen-5.0.0/Eigen/SVD \
+  /usr/local/include/eigen-5.0.0/Eigen/src/misc/RealSvd2x2.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/SVD/UpperBidiagonalization.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/SVD/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/SVD/SVDBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/SVD/JacobiSVD.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/SVD/BDCSVD.h \
+  /usr/local/include/eigen-5.0.0/Eigen/Geometry \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/EulerAngles.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Homogeneous.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/RotationBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Rotation2D.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Quaternion.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/AngleAxis.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Transform.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Translation.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Scaling.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Hyperplane.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/ParametrizedLine.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/AlignedBox.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Umeyama.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/Eigenvalues \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/EigenSolver.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  /home/huang/Planning_with_ROS2/src/planning/src/vehicle_info/main_car/main_car_info.h \
+  /home/huang/Planning_with_ROS2/src/planning/src/vehicle_info/vehicle_info_base.h \
+  /home/huang/Planning_with_ROS2/src/planning/src/decision_center/decision_center.h \
+  /home/huang/Planning_with_ROS2/src/planning/src/vehicle_info/obs_car/obs_car_info.h \
+  /home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_path/local_path_smoother.h
 
 src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_smoother.cpp.o: /home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_path/local_path_smoother.cpp \
   /usr/include/stdc-predef.h \
@@ -1371,7 +1646,42 @@ src/local_planner/CMakeFiles/local_planner.dir/local_path/local_path_smoother.cp
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /home/huang/Planning_with_ROS2/src/planning/src/common/config_reader/config_reader.h \
+  /usr/include/yaml-cpp/yaml.h \
+  /usr/include/yaml-cpp/parser.h \
+  /usr/include/yaml-cpp/dll.h \
+  /usr/include/yaml-cpp/emitter.h \
+  /usr/include/c++/11/cstddef \
+  /usr/include/yaml-cpp/binary.h \
+  /usr/include/yaml-cpp/emitterdef.h \
+  /usr/include/yaml-cpp/emittermanip.h \
+  /usr/include/yaml-cpp/null.h \
+  /usr/include/yaml-cpp/ostream_wrapper.h \
+  /usr/include/yaml-cpp/emitterstyle.h \
+  /usr/include/yaml-cpp/stlemitter.h \
+  /usr/include/yaml-cpp/exceptions.h \
+  /usr/include/yaml-cpp/mark.h \
+  /usr/include/yaml-cpp/noexcept.h \
+  /usr/include/yaml-cpp/traits.h \
+  /usr/include/yaml-cpp/node/node.h \
+  /usr/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /usr/include/yaml-cpp/node/ptr.h \
+  /usr/include/yaml-cpp/node/type.h \
+  /usr/include/yaml-cpp/node/impl.h \
+  /usr/include/yaml-cpp/node/detail/memory.h \
+  /usr/include/yaml-cpp/node/detail/node.h \
+  /usr/include/yaml-cpp/node/detail/node_ref.h \
+  /usr/include/yaml-cpp/node/detail/node_data.h \
+  /usr/include/yaml-cpp/node/detail/node_iterator.h \
+  /usr/include/yaml-cpp/node/iterator.h \
+  /usr/include/yaml-cpp/node/detail/iterator.h \
+  /usr/include/yaml-cpp/node/convert.h \
+  /usr/include/yaml-cpp/node/detail/impl.h \
+  /usr/include/yaml-cpp/node/parse.h \
+  /usr/include/yaml-cpp/node/emit.h \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h
 
 src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_planner.cpp.o: /home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_speeds/local_speeds_planner.cpp \
   /usr/include/stdc-predef.h \
@@ -2057,7 +2367,281 @@ src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_planner
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /home/huang/Planning_with_ROS2/src/planning/src/common/config_reader/config_reader.h \
+  /usr/include/yaml-cpp/yaml.h \
+  /usr/include/yaml-cpp/parser.h \
+  /usr/include/yaml-cpp/dll.h \
+  /usr/include/yaml-cpp/emitter.h \
+  /usr/include/c++/11/cstddef \
+  /usr/include/yaml-cpp/binary.h \
+  /usr/include/yaml-cpp/emitterdef.h \
+  /usr/include/yaml-cpp/emittermanip.h \
+  /usr/include/yaml-cpp/null.h \
+  /usr/include/yaml-cpp/ostream_wrapper.h \
+  /usr/include/yaml-cpp/emitterstyle.h \
+  /usr/include/yaml-cpp/stlemitter.h \
+  /usr/include/yaml-cpp/exceptions.h \
+  /usr/include/yaml-cpp/mark.h \
+  /usr/include/yaml-cpp/noexcept.h \
+  /usr/include/yaml-cpp/traits.h \
+  /usr/include/yaml-cpp/node/node.h \
+  /usr/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /usr/include/yaml-cpp/node/ptr.h \
+  /usr/include/yaml-cpp/node/type.h \
+  /usr/include/yaml-cpp/node/impl.h \
+  /usr/include/yaml-cpp/node/detail/memory.h \
+  /usr/include/yaml-cpp/node/detail/node.h \
+  /usr/include/yaml-cpp/node/detail/node_ref.h \
+  /usr/include/yaml-cpp/node/detail/node_data.h \
+  /usr/include/yaml-cpp/node/detail/node_iterator.h \
+  /usr/include/yaml-cpp/node/iterator.h \
+  /usr/include/yaml-cpp/node/detail/iterator.h \
+  /usr/include/yaml-cpp/node/convert.h \
+  /usr/include/yaml-cpp/node/detail/impl.h \
+  /usr/include/yaml-cpp/node/parse.h \
+  /usr/include/yaml-cpp/node/emit.h \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
+  /home/huang/Planning_with_ROS2/src/planning/src/common/math/polynomial_curve.h \
+  /usr/local/include/eigen-5.0.0/Eigen/Dense \
+  /usr/local/include/eigen-5.0.0/Eigen/Core \
+  /usr/local/include/eigen-5.0.0/Eigen/Version \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Macros.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/ConfigureVectorization.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/include/c++/11/complex \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/MKL_support.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Constants.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Meta.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Assert.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/ForwardDeclarations.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/StaticAssert.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/XprHelper.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Memory.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/IntegralConstant.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Serializer.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/SymbolicIndex.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/EmulateArray.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/MoreMeta.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/NumTraits.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/MathFunctions.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/RandomImpl.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/GenericPacketMath.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/MathFunctionsImpl.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/ConjHelper.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/Half.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/BFloat16.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/SSE/PacketMath.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/SSE/Reductions.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/SSE/TypeCasting.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/SSE/MathFunctions.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/SSE/Complex.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/Settings.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/TernaryFunctors.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/BinaryFunctors.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/UnaryFunctors.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/NullaryFunctors.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/StlFunctors.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/AssignmentFunctors.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/IndexedViewHelper.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/ReshapedHelper.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/ArithmeticSequence.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/IO.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/DenseCoeffsBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/DenseBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/CommonCwiseUnaryOps.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/BlockMethods.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/IndexedViewMethods.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/ReshapedMethods.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/ReshapedMethods.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/MatrixBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/CommonCwiseBinaryOps.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/MatrixCwiseUnaryOps.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/MatrixCwiseBinaryOps.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/EigenBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Product.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CoreEvaluators.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/AssignEvaluator.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/RealView.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Assign.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/ArrayBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/ArrayCwiseUnaryOps.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/plugins/ArrayCwiseBinaryOps.inc \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/BlasUtil.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/DenseStorage.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/NestByValue.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/ReturnByValue.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/NoAlias.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/PlainObjectBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Matrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Array.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Fill.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CwiseTernaryOp.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CwiseBinaryOp.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CwiseUnaryOp.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CwiseNullaryOp.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CwiseUnaryView.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/InnerProduct.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Dot.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/StableNorm.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Stride.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/MapBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Map.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Ref.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Block.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/VectorBlock.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/IndexedView.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Reshaped.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Transpose.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/DiagonalMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Diagonal.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/DiagonalProduct.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/SkewSymmetricMatrix3.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Redux.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Visitor.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/FindCoeff.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Fuzzy.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Swap.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CommaInitializer.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/GeneralProduct.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Solve.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Inverse.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/SolverBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/PermutationMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Transpositions.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/TriangularMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/SelfAdjointView.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/DeviceWrapper.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/Parallelizer.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/ProductEvaluators.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/GeneralMatrixVector.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/SolveTriangular.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/SelfadjointProduct.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/TriangularMatrixVector.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/products/TriangularSolverVector.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/BandMatrix.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/CoreIterators.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/ConditionEstimator.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Select.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/VectorwiseOp.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/PartialReduxEvaluator.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Random.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Replicate.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/Reverse.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/ArrayWrapper.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/StlIterators.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/GlobalFunctions.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/local/include/eigen-5.0.0/Eigen/LU \
+  /usr/local/include/eigen-5.0.0/Eigen/src/misc/Kernel.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/misc/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/misc/Image.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/LU/FullPivLU.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/LU/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/LU/PartialPivLU.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/LU/Determinant.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/LU/InverseImpl.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/LU/arch/InverseSize4.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/LU/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/Cholesky \
+  /usr/local/include/eigen-5.0.0/Eigen/Jacobi \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Jacobi/Jacobi.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Jacobi/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Cholesky/LLT.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Cholesky/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Cholesky/LDLT.h \
+  /usr/local/include/eigen-5.0.0/Eigen/QR \
+  /usr/local/include/eigen-5.0.0/Eigen/Householder \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Householder/Householder.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Householder/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Householder/HouseholderSequence.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Householder/BlockHouseholder.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/QR/HouseholderQR.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/QR/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/QR/FullPivHouseholderQR.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/QR/ColPivHouseholderQR.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  /usr/local/include/eigen-5.0.0/Eigen/SVD \
+  /usr/local/include/eigen-5.0.0/Eigen/src/misc/RealSvd2x2.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/SVD/UpperBidiagonalization.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/SVD/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/SVD/SVDBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/SVD/JacobiSVD.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/SVD/BDCSVD.h \
+  /usr/local/include/eigen-5.0.0/Eigen/Geometry \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/EulerAngles.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Homogeneous.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/RotationBase.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Rotation2D.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Quaternion.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/AngleAxis.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Transform.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Translation.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Scaling.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Hyperplane.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/ParametrizedLine.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/AlignedBox.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Umeyama.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Geometry/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/Eigenvalues \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/InternalHeaderCheck.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/EigenSolver.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  /home/huang/Planning_with_ROS2/src/planning/src/decision_center/decision_center.h \
+  /home/huang/Planning_with_ROS2/src/planning/src/vehicle_info/main_car/main_car_info.h \
+  /home/huang/Planning_with_ROS2/src/planning/src/vehicle_info/vehicle_info_base.h \
+  /home/huang/Planning_with_ROS2/src/planning/src/vehicle_info/obs_car/obs_car_info.h \
+  /home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_speeds/local_speeds_smoother.h
 
 src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_smoother.cpp.o: /home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_speeds/local_speeds_smoother.cpp \
   /usr/include/stdc-predef.h \
@@ -2743,7 +3327,42 @@ src/local_planner/CMakeFiles/local_planner.dir/local_speeds/local_speeds_smoothe
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /home/huang/Planning_with_ROS2/src/planning/src/common/config_reader/config_reader.h \
+  /usr/include/yaml-cpp/yaml.h \
+  /usr/include/yaml-cpp/parser.h \
+  /usr/include/yaml-cpp/dll.h \
+  /usr/include/yaml-cpp/emitter.h \
+  /usr/include/c++/11/cstddef \
+  /usr/include/yaml-cpp/binary.h \
+  /usr/include/yaml-cpp/emitterdef.h \
+  /usr/include/yaml-cpp/emittermanip.h \
+  /usr/include/yaml-cpp/null.h \
+  /usr/include/yaml-cpp/ostream_wrapper.h \
+  /usr/include/yaml-cpp/emitterstyle.h \
+  /usr/include/yaml-cpp/stlemitter.h \
+  /usr/include/yaml-cpp/exceptions.h \
+  /usr/include/yaml-cpp/mark.h \
+  /usr/include/yaml-cpp/noexcept.h \
+  /usr/include/yaml-cpp/traits.h \
+  /usr/include/yaml-cpp/node/node.h \
+  /usr/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /usr/include/yaml-cpp/node/ptr.h \
+  /usr/include/yaml-cpp/node/type.h \
+  /usr/include/yaml-cpp/node/impl.h \
+  /usr/include/yaml-cpp/node/detail/memory.h \
+  /usr/include/yaml-cpp/node/detail/node.h \
+  /usr/include/yaml-cpp/node/detail/node_ref.h \
+  /usr/include/yaml-cpp/node/detail/node_data.h \
+  /usr/include/yaml-cpp/node/detail/node_iterator.h \
+  /usr/include/yaml-cpp/node/iterator.h \
+  /usr/include/yaml-cpp/node/detail/iterator.h \
+  /usr/include/yaml-cpp/node/convert.h \
+  /usr/include/yaml-cpp/node/detail/impl.h \
+  /usr/include/yaml-cpp/node/parse.h \
+  /usr/include/yaml-cpp/node/emit.h \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h
 
 src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: /home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_trajectory_combiner.cpp \
   /usr/include/stdc-predef.h \
@@ -3429,22 +4048,361 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /home/huang/Planning_with_ROS2/src/planning/src/common/config_reader/config_reader.h \
+  /usr/include/yaml-cpp/yaml.h \
+  /usr/include/yaml-cpp/parser.h \
+  /usr/include/yaml-cpp/dll.h \
+  /usr/include/yaml-cpp/emitter.h \
+  /usr/include/c++/11/cstddef \
+  /usr/include/yaml-cpp/binary.h \
+  /usr/include/yaml-cpp/emitterdef.h \
+  /usr/include/yaml-cpp/emittermanip.h \
+  /usr/include/yaml-cpp/null.h \
+  /usr/include/yaml-cpp/ostream_wrapper.h \
+  /usr/include/yaml-cpp/emitterstyle.h \
+  /usr/include/yaml-cpp/stlemitter.h \
+  /usr/include/yaml-cpp/exceptions.h \
+  /usr/include/yaml-cpp/mark.h \
+  /usr/include/yaml-cpp/noexcept.h \
+  /usr/include/yaml-cpp/traits.h \
+  /usr/include/yaml-cpp/node/node.h \
+  /usr/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /usr/include/yaml-cpp/node/ptr.h \
+  /usr/include/yaml-cpp/node/type.h \
+  /usr/include/yaml-cpp/node/impl.h \
+  /usr/include/yaml-cpp/node/detail/memory.h \
+  /usr/include/yaml-cpp/node/detail/node.h \
+  /usr/include/yaml-cpp/node/detail/node_ref.h \
+  /usr/include/yaml-cpp/node/detail/node_data.h \
+  /usr/include/yaml-cpp/node/detail/node_iterator.h \
+  /usr/include/yaml-cpp/node/iterator.h \
+  /usr/include/yaml-cpp/node/detail/iterator.h \
+  /usr/include/yaml-cpp/node/convert.h \
+  /usr/include/yaml-cpp/node/detail/impl.h \
+  /usr/include/yaml-cpp/node/parse.h \
+  /usr/include/yaml-cpp/node/emit.h \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h
 
 
 /home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_trajectory_combiner.h:
 
-/home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_trajectory_combiner.cpp:
+/home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_speeds/local_speeds_smoother.cpp:
 
 /home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_speeds/local_speeds_smoother.h:
 
-/home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_speeds/local_speeds_smoother.cpp:
-
 /home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_speeds/local_speeds_planner.h:
+
+/home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_path/local_path_smoother.cpp:
 
 /home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_path/local_path_smoother.h:
 
-/home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_path/local_path_smoother.cpp:
+/home/huang/Planning_with_ROS2/src/planning/src/vehicle_info/obs_car/obs_car_info.h:
+
+/home/huang/Planning_with_ROS2/src/planning/src/decision_center/decision_center.h:
+
+/home/huang/Planning_with_ROS2/src/planning/src/vehicle_info/vehicle_info_base.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/RealQZ.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/InternalHeaderCheck.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Umeyama.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Transform.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/AngleAxis.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Quaternion.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Rotation2D.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Homogeneous.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/EulerAngles.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/InternalHeaderCheck.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/OrthoMethods.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/SVD/BDCSVD.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/SVD/JacobiSVD.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/SVD/SVDBase.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/misc/RealSvd2x2.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/SVD:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Scaling.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/QR/HouseholderQR.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Householder/BlockHouseholder.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Householder/HouseholderSequence.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/Householder:
+
+/usr/local/include/eigen-5.0.0/Eigen/QR:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Cholesky/LDLT.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Cholesky/LLT.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Jacobi/Jacobi.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/LU/Determinant.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/LU/PartialPivLU.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/LU/FullPivLU.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/misc/Kernel.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/ArrayWrapper.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Random.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/VectorwiseOp.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Select.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/SVD/InternalHeaderCheck.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/ConditionEstimator.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/CoreIterators.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/products/SelfadjointRank2Update.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/products/GeneralMatrixMatrix.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/products/GeneralMatrixVector.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/SelfAdjointView.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/TriangularMatrix.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/PermutationMatrix.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/SolverBase.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Swap.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/FindCoeff.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/SkewSymmetricMatrix3.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/DiagonalProduct.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Transpose.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Ref.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/Eigenvalues:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Map.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/products/TriangularMatrixVector.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Stride.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/InnerProduct.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/SelfCwiseBinaryOp.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/CwiseUnaryOp.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/CwiseTernaryOp.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Array.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/LU/InverseImpl.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Matrix.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/NoAlias.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/DenseStorage.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/BlasUtil.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/LU/InternalHeaderCheck.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/plugins/ArrayCwiseBinaryOps.inc:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/plugins/ArrayCwiseUnaryOps.inc:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/RealView.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/ParametrizedLine.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/CoreEvaluators.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/plugins/MatrixCwiseBinaryOps.inc:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/MatrixBase.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/plugins/ReshapedMethods.inc:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/plugins/CommonCwiseUnaryOps.inc:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/DenseBase.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/ArithmeticSequence.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/ReshapedHelper.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/StlFunctors.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/NullaryFunctors.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/Settings.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/SSE/Complex.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/SSE/PacketMath.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/BFloat16.h:
+
+/home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_trajectory_combiner.cpp:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/ConjHelper.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/GenericPacketMath.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/SSE/Reductions.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/MathFunctions.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/MoreMeta.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/EmulateArray.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/Geometry:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/SymbolicIndex.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Memory.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/StaticAssert.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Constants.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+
+/usr/include/c++/11/climits:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/MKL_support.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/IO.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/InternalHeaderCheck.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Macros.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/DisableStupidWarnings.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/SVD/UpperBidiagonalization.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/Version:
+
+/usr/local/include/eigen-5.0.0/Eigen/Core:
+
+/usr/local/include/eigen-5.0.0/Eigen/Dense:
+
+/home/huang/Planning_with_ROS2/src/planning/src/common/math/polynomial_curve.h:
+
+/opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
+
+/opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp:
+
+/usr/include/yaml-cpp/node/parse.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/NestByValue.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/plugins/MatrixCwiseUnaryOps.inc:
+
+/usr/include/yaml-cpp/node/detail/impl.h:
+
+/usr/include/yaml-cpp/node/iterator.h:
+
+/usr/include/yaml-cpp/node/detail/node_iterator.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/IntegralConstant.h:
+
+/usr/include/yaml-cpp/node/detail/node_data.h:
+
+/usr/include/yaml-cpp/node/detail/node_ref.h:
+
+/usr/include/yaml-cpp/node/detail/node.h:
+
+/usr/include/yaml-cpp/node/type.h:
+
+/usr/include/yaml-cpp/node/ptr.h:
+
+/usr/include/yaml-cpp/node/detail/iterator_fwd.h:
+
+/usr/include/yaml-cpp/traits.h:
+
+/usr/include/yaml-cpp/noexcept.h:
+
+/usr/include/yaml-cpp/mark.h:
+
+/usr/include/yaml-cpp/ostream_wrapper.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/plugins/BlockMethods.inc:
+
+/usr/include/yaml-cpp/null.h:
+
+/usr/include/yaml-cpp/emittermanip.h:
+
+/usr/include/yaml-cpp/binary.h:
+
+/usr/include/c++/11/cstddef:
+
+/usr/include/yaml-cpp/dll.h:
+
+/usr/include/yaml-cpp/parser.h:
+
+/usr/include/yaml-cpp/node/detail/iterator.h:
+
+/usr/include/yaml-cpp/yaml.h:
+
+/home/huang/Planning_with_ROS2/src/planning/src/common/config_reader/config_reader.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
@@ -3454,9 +4412,13 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp:
 
+/usr/include/limits.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_event_handler.hpp:
 
@@ -3476,6 +4438,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
 
+/usr/local/include/eigen-5.0.0/Eigen/Jacobi:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
@@ -3490,6 +4454,10 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/QR/InternalHeaderCheck.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/LU:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp:
@@ -3498,13 +4466,21 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/SSE/TypeCasting.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Replicate.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Assert.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/GlobalFunctions.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
 
@@ -3550,9 +4526,13 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/CwiseBinaryOp.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp:
+
+/usr/include/yaml-cpp/node/emit.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:
 
@@ -3570,6 +4550,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/products/TriangularSolverVector.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp:
@@ -3584,11 +4566,15 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
 
+/home/huang/Planning_with_ROS2/src/planning/src/common/math/curve.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Reshaped.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:
 
@@ -3601,6 +4587,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/Tridiagonalization.h:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
 
@@ -3666,13 +4654,25 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Serializer.h:
+
 /usr/include/c++/11/future:
+
+/usr/local/include/eigen-5.0.0/Eigen/Cholesky:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Fuzzy.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/PartialReduxEvaluator.h:
+
 /usr/include/stdlib.h:
 
+/usr/include/yaml-cpp/node/impl.h:
+
 /usr/include/c++/11/string_view:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/QR/ColPivHouseholderQR.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
@@ -3682,9 +4682,13 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/products/TriangularSolverMatrix.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
 
 /usr/include/c++/11/bits/ostream_insert.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/StableNorm.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -3692,9 +4696,13 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/c++/11/locale:
 
+/usr/include/yaml-cpp/exceptions.h:
+
 /usr/include/c++/11/cctype:
 
 /usr/include/c++/11/iomanip:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
@@ -3712,6 +4720,10 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/AlignedBox.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/AssignmentFunctors.h:
+
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
@@ -3726,11 +4738,15 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
+
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Assign.h:
 
 /opt/ros/humble/include/rmw/rmw/security_options.h:
 
@@ -3742,6 +4758,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/c++/11/ios:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/EigenBase.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
@@ -3749,6 +4767,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /usr/include/c++/11/unordered_map:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
 
@@ -3766,6 +4786,10 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/EigenSolver.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Diagonal.h:
+
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
@@ -3780,6 +4804,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rmw/rmw/publisher_options.h:
 
+/usr/include/yaml-cpp/node/convert.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp:
 
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h:
@@ -3789,6 +4815,10 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /usr/include/c++/11/bits/stl_set.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:
+
+/usr/include/yaml-cpp/emitterdef.h:
+
+/usr/include/yaml-cpp/emitter.h:
 
 /usr/include/c++/11/exception:
 
@@ -3808,9 +4838,13 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
+/usr/include/yaml-cpp/emitterstyle.h:
+
 /usr/include/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/BandMatrix.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
 
@@ -3820,7 +4854,11 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Inverse.h:
+
 /usr/include/c++/11/typeindex:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Householder/InternalHeaderCheck.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
@@ -3828,9 +4866,13 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/c++/11/bits/unordered_map.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Fill.h:
+
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/c++/11/ext/alloc_traits.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/QR/FullPivHouseholderQR.h:
 
 /usr/include/c++/11/ext/concurrence.h:
 
@@ -3850,11 +4892,15 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/c++/11/typeinfo:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/products/SelfadjointMatrixVector.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Translation.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -3882,6 +4928,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/ArrayBase.h:
+
 /usr/include/c++/11/bits/exception_defines.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
@@ -3894,7 +4942,11 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/c++/11/bits/hashtable_policy.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/DiagonalMatrix.h:
+
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Householder/Householder.h:
 
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
@@ -3906,13 +4958,21 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Block.h:
+
 /usr/include/locale.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/products/TriangularMatrixMatrix.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/NumTraits.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/SolveTriangular.h:
 
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
 
@@ -3948,7 +5008,11 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/arch/Geometry_SIMD.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/TernaryFunctors.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
 
@@ -3957,6 +5021,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/LU/arch/InverseSize4.h:
 
 /usr/include/c++/11/system_error:
 
@@ -3974,6 +5040,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Transpositions.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
 
 /usr/include/c++/11/ctime:
@@ -3982,7 +5050,11 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/CwiseUnaryView.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
 
@@ -4013,6 +5085,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
 
 /usr/include/c++/11/bits/ios_base.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/RotationBase.h:
 
 /opt/ros/humble/include/rmw/rmw/message_sequence.h:
 
@@ -4050,6 +5124,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/c++/11/tr1/special_function_util.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/plugins/CommonCwiseBinaryOps.inc:
+
 /usr/include/c++/11/bits/shared_ptr.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
@@ -4060,6 +5136,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/c++/11/bits/stl_construct.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/ReenableStupidWarnings.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/c++/11/bits/std_function.h:
@@ -4069,6 +5147,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/c++/11/bits/allocator.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/plugins/IndexedViewMethods.inc:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
 
@@ -4093,6 +5173,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /usr/include/c++/11/set:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/home/huang/Planning_with_ROS2/src/planning/src/vehicle_info/main_car/main_car_info.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
@@ -4122,11 +5204,17 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Cholesky/InternalHeaderCheck.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Reverse.h:
+
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /opt/ros/humble/include/rcl/rcl/types.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/UnaryFunctors.h:
 
 /usr/include/c++/11/bits/stl_pair.h:
 
@@ -4140,6 +5228,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/c++/11/bits/unique_ptr.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/XprHelper.h:
+
 /usr/include/c++/11/bits/stl_relops.h:
 
 /usr/include/c++/11/bits/stl_tree.h:
@@ -4152,6 +5242,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
 
+/usr/include/yaml-cpp/node/detail/memory.h:
+
 /opt/ros/humble/include/rmw/rmw/qos_string_conversions.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
@@ -4160,9 +5252,13 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/functors/BinaryFunctors.h:
+
 /usr/include/c++/11/bits/stl_numeric.h:
 
 /usr/include/linux/close_range.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Visitor.h:
 
 /opt/ros/humble/include/rcl/rcl/init_options.h:
 
@@ -4176,9 +5272,13 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/ProductEvaluators.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/ReturnByValue.h:
 
 /usr/include/c++/11/new:
 
@@ -4226,6 +5326,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/PlainObjectBase.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
 
 /usr/include/c++/11/bits/align.h:
@@ -4235,6 +5337,10 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/IndexedView.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/Meta.h:
 
 /usr/include/c++/11/cwchar:
 
@@ -4267,6 +5373,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
 
 /usr/include/math.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/products/SelfadjointProduct.h:
 
 /usr/include/c++/11/bits/alloc_traits.h:
 
@@ -4320,6 +5428,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/c++/11/bits/locale_classes.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Product.h:
+
 /usr/include/c++/11/ext/aligned_buffer.h:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
@@ -4331,6 +5441,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /usr/include/c++/11/bits/streambuf.tcc:
 
 /usr/include/string.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/RealSchur.h:
 
 /usr/include/c++/11/cwctype:
 
@@ -4350,6 +5462,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/c++/11/bits/istream.tcc:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
+
 /usr/include/c++/11/list:
 
 /usr/include/c++/11/bits/stl_list.h:
@@ -4358,19 +5472,29 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Redux.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/IndexedViewHelper.h:
+
 /usr/include/c++/11/map:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
 
 /usr/include/c++/11/bits/stl_map.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/misc/InternalHeaderCheck.h:
+
 /usr/include/c++/11/bits/stl_multimap.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/SSE/MathFunctions.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp:
 
 /opt/ros/humble/include/rcl/rcl/guard_condition.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/products/Parallelizer.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
 
@@ -4428,6 +5552,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rcutils/rcutils/snprintf.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/ForwardDeclarations.h:
+
 /opt/ros/humble/include/rcutils/rcutils/time.h:
 
 /opt/ros/humble/include/rcutils/rcutils/types.h:
@@ -4476,6 +5602,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/StlIterators.h:
+
 /usr/include/c++/11/bits/codecvt.h:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
@@ -4516,11 +5644,17 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Jacobi/InternalHeaderCheck.h:
+
 /opt/ros/humble/include/rcl/rcl/context.h:
 
 /opt/ros/humble/include/rmw/rmw/event_callback_type.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Eigenvalues/ComplexSchur.h:
+
 /opt/ros/humble/include/rcl/rcl/node.h:
+
+/usr/include/yaml-cpp/stlemitter.h:
 
 /opt/ros/humble/include/rcl/rcl/node_options.h:
 
@@ -4531,6 +5665,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /opt/ros/humble/include/rcl/rcl/service.h:
 
 /opt/ros/humble/include/rcl/rcl/subscription.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Geometry/Hyperplane.h:
 
 /opt/ros/humble/include/rcl/rcl/timer.h:
 
@@ -4547,6 +5683,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:
 
 /opt/ros/humble/include/rmw/rmw/event.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/CwiseNullaryOp.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
 
@@ -4602,15 +5740,25 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/VectorBlock.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/misc/Image.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/GeneralProduct.h:
+
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
 /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/DeviceWrapper.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/RandomImpl.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp:
 
@@ -4630,6 +5778,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
 
 /opt/ros/humble/include/rmw/rmw/names_and_types.h:
@@ -4637,6 +5787,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /usr/include/wctype.h:
 
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h:
+
+/usr/include/yaml-cpp/node/node.h:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
 
@@ -4658,6 +5810,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/MathFunctionsImpl.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
 
 /usr/include/c++/11/bits/basic_ios.h:
@@ -4666,11 +5820,15 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /usr/include/c++/11/cxxabi.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/arch/Default/Half.h:
+
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/libintl.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/MapBase.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
 
@@ -4700,6 +5858,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Solve.h:
+
 /usr/include/signal.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
@@ -4715,6 +5875,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
+
+/usr/include/c++/11/complex:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
@@ -4743,6 +5905,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp:
 
@@ -4774,9 +5938,17 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/CommaInitializer.h:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/util/ConfigureVectorization.h:
+
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
 
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/Dot.h:
+
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/DenseCoeffsBase.h:
 
 /opt/ros/humble/include/rmw/rmw/time.h:
 
@@ -4797,6 +5969,8 @@ src/local_planner/CMakeFiles/local_planner.dir/local_trajectory_combiner.cpp.o: 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
 /usr/include/c++/11/tr1/ell_integral.tcc:
+
+/usr/local/include/eigen-5.0.0/Eigen/src/Core/AssignEvaluator.h:
 
 /opt/ros/humble/include/rcl/rcl/error_handling.h:
 

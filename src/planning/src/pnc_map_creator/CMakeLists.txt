@@ -14,6 +14,12 @@ add_library(pnc_map_creator SHARED
   ${CMAKE_CURRENT_SOURCE_DIR}/pnc_map_sturn/pnc_map_creator_sturn.cpp
 )
 
+target_include_directories(pnc_map_creator PUBLIC
+  ${CMAKE_CURRENT_SOURCE_DIR}/pnc_map_straight
+  ${CMAKE_CURRENT_SOURCE_DIR}/pnc_map_sturn
+)
+
+
 # 添加节点
 add_executable(pnc_map_server
   ${CMAKE_CURRENT_SOURCE_DIR}/pnc_map_server.cpp

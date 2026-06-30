@@ -16,10 +16,10 @@ set(target decision_center)
 # 添加依赖
 ament_target_dependencies(${target} ${DEPENDS})
 
-#target_link_libraries(${target})
-#   config_reader
-#   vehicle_info
-#)
+target_link_libraries(${target}
+  config_reader
+  vehicle_info
+)
 
 # 安装动态库、节点和相关目录
 install(TARGETS ${target}

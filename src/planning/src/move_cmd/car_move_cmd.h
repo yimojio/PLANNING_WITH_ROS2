@@ -2,6 +2,9 @@
 #define CAR_MOVE_CMD_H_
 
 #include "rclcpp/rclcpp.hpp"
+#include "config_reader.h"
+#include "main_car_info.h"
+
 
 namespace Planning
 {
