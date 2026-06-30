@@ -1,4 +1,16 @@
+/home/huang/Planning_with_ROS2/install/planning/lib/libconfig_reader.so
+/home/huang/Planning_with_ROS2/install/planning/lib/libmathlibs.so
+/home/huang/Planning_with_ROS2/install/planning/lib/libdecision_center.so
+/home/huang/Planning_with_ROS2/install/planning/lib/libpnc_map_creator.so
+/home/huang/Planning_with_ROS2/install/planning/lib/planning/pnc_map_server
+/home/huang/Planning_with_ROS2/install/planning/lib/libglobal_planner.so
+/home/huang/Planning_with_ROS2/install/planning/lib/planning/global_path_server
+/home/huang/Planning_with_ROS2/install/planning/lib/liblocal_planner.so
+/home/huang/Planning_with_ROS2/install/planning/lib/libreference_line.so
+/home/huang/Planning_with_ROS2/install/planning/lib/libvehicle_info.so
 /home/huang/Planning_with_ROS2/install/planning/lib/planning/planning_node
+/home/huang/Planning_with_ROS2/install/planning/lib/planning/car_move_cmd
+/home/huang/Planning_with_ROS2/install/planning/lib/planning/obs_move_cmd
 /home/huang/Planning_with_ROS2/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
 /home/huang/Planning_with_ROS2/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
 /home/huang/Planning_with_ROS2/install/planning/share/planning/environment/ament_prefix_path.sh

@@ -1,0 +1,96 @@
+[0.549s] Invoking command in '/home/huang/Planning_with_ROS2/build/planning': CMAKE_PREFIX_PATH=/home/huang/Planning_with_ROS2/install/base_msgs:/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --build /home/huang/Planning_with_ROS2/build/planning -- -j4 -l4
+[0.663s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.020s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.132s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.145s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.168s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.250s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.355s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.362s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.598s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.780s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[1.846s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.095s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.153s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.237s] -- Found base_msgs: 0.0.0 (/home/huang/Planning_with_ROS2/install/base_msgs/share/base_msgs/cmake)
+[2.295s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.492s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.494s] -- Configured cppcheck include dirs: /home/huang/Planning_with_ROS2/src/planning/src/common/config_reader;/home/huang/Planning_with_ROS2/src/planning/src/common/math;/home/huang/Planning_with_ROS2/src/planning/src/decision_center;/home/huang/Planning_with_ROS2/src/planning/src/pnc_map_creator;/home/huang/Planning_with_ROS2/src/planning/src/pnc_map_creator/pnc_map_creator;/home/huang/Planning_with_ROS2/src/planning/src/pnc_map_creator/pnc_map_sturn;/home/huang/Planning_with_ROS2/src/planning/src/global_planner;/home/huang/Planning_with_ROS2/src/planning/src/global_planner/global_planner_normal;/home/huang/Planning_with_ROS2/src/planning/src/local_planner;/home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_path;/home/huang/Planning_with_ROS2/src/planning/src/local_planner/local_speeds;/home/huang/Planning_with_ROS2/src/planning/src/reference_line;/home/huang/Planning_with_ROS2/src/planning/src/vehicle_info;/home/huang/Planning_with_ROS2/src/planning/src/vehicle_info/main_car;/home/huang/Planning_with_ROS2/src/planning/src/vehicle_info/obs_car;/home/huang/Planning_with_ROS2/src/planning/src/planning_process;/home/huang/Planning_with_ROS2/src/planning/src/move_cmd
+[2.495s] -- Configured cppcheck exclude dirs and/or files: 
+[2.502s] -- Added test 'lint_cmake' to check CMake code style
+[2.512s] -- Added test 'uncrustify' to check C / C++ code style
+[2.513s] -- Configured uncrustify additional arguments: 
+[2.515s] -- Added test 'xmllint' to check XML markup files
+[2.519s] -- Configuring done
+[2.701s] -- Generating done
+[2.753s] -- Build files have been written to: /home/huang/Planning_with_ROS2/build/planning
+[2.822s] [35m[1mConsolidate compiler generated dependencies of target mathlibs[0m
+[2.822s] [35m[1mConsolidate compiler generated dependencies of target config_reader[0m
+[2.838s] [35m[1mConsolidate compiler generated dependencies of target local_planner[0m
+[2.840s] [35m[1mConsolidate compiler generated dependencies of target decision_center[0m
+[2.878s] [  5%] Built target config_reader
+[2.903s] [ 11%] Built target decision_center
+[2.907s] [ 28%] Built target local_planner
+[2.915s] [ 37%] Built target mathlibs
+[2.953s] [35m[1mConsolidate compiler generated dependencies of target planning_node[0m
+[2.953s] [35m[1mConsolidate compiler generated dependencies of target car_move_cmd[0m
+[2.962s] [35m[1mConsolidate compiler generated dependencies of target obs_move_cmd[0m
+[2.978s] [35m[1mConsolidate compiler generated dependencies of target pnc_map_creator[0m
+[3.041s] [ 42%] Built target obs_move_cmd
+[3.041s] [ 48%] Built target car_move_cmd
+[3.081s] [35m[1mConsolidate compiler generated dependencies of target global_planner[0m
+[3.105s] [ 57%] Built target pnc_map_creator
+[3.133s] [ 65%] Built target planning_node
+[3.157s] [ 68%] [32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_creator.cpp.o[0m
+[3.162s] [ 74%] Built target global_planner
+[3.205s] [ 77%] [32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/main_car/main_car_info.cpp.o[0m
+[3.211s] [35m[1mConsolidate compiler generated dependencies of target pnc_map_server[0m
+[3.251s] [35m[1mConsolidate compiler generated dependencies of target global_path_server[0m
+[3.275s] [ 82%] Built target pnc_map_server
+[3.311s] [ 85%] [32mBuilding CXX object src/reference_line/CMakeFiles/reference_line.dir/reference_line_smoother.cpp.o[0m
+[3.325s] [ 91%] Built target global_path_server
+[3.355s] [ 94%] [32mBuilding CXX object src/vehicle_info/CMakeFiles/vehicle_info.dir/obs_car/obs_car_info.cpp.o[0m
+[11.808s] [ 97%] [32m[1mLinking CXX shared library libvehicle_info.so[0m
+[12.036s] [100%] [32m[1mLinking CXX static library libreference_line.a[0m
+[12.121s] [100%] Built target reference_line
+[12.172s] [100%] Built target vehicle_info
+[12.199s] Invoked command in '/home/huang/Planning_with_ROS2/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/huang/Planning_with_ROS2/install/base_msgs:/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --build /home/huang/Planning_with_ROS2/build/planning -- -j4 -l4
+[12.203s] Invoking command in '/home/huang/Planning_with_ROS2/build/planning': CMAKE_PREFIX_PATH=/home/huang/Planning_with_ROS2/install/base_msgs:/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --install /home/huang/Planning_with_ROS2/build/planning
+[12.220s] -- Install configuration: ""
+[12.224s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/libconfig_reader.so
+[12.226s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/libmathlibs.so
+[12.230s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/libdecision_center.so
+[12.233s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/libpnc_map_creator.so
+[12.235s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/planning/pnc_map_server
+[12.238s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/libglobal_planner.so
+[12.242s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/planning/global_path_server
+[12.246s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/liblocal_planner.so
+[12.249s] -- Installing: /home/huang/Planning_with_ROS2/install/planning/lib/libreference_line.a
+[12.255s] -- Installing: /home/huang/Planning_with_ROS2/install/planning/lib/libvehicle_info.so
+[12.255s] -- Set runtime path of "/home/huang/Planning_with_ROS2/install/planning/lib/libvehicle_info.so" to ""
+[12.255s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/planning/planning_node
+[12.268s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/planning/car_move_cmd
+[12.268s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/lib/planning/obs_move_cmd
+[12.269s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/config
+[12.269s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/launch
+[12.269s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/urdf
+[12.271s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/urdf/main_car
+[12.272s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/urdf/obs_car
+[12.276s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/rviz
+[12.278s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/ament_index/resource_index/package_run_dependencies/planning
+[12.278s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/ament_index/resource_index/parent_prefix_path/planning
+[12.280s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/environment/ament_prefix_path.sh
+[12.280s] -- Installing: /home/huang/Planning_with_ROS2/install/planning/share/planning/environment/ament_prefix_path.dsv
+[12.281s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/environment/path.sh
+[12.282s] -- Installing: /home/huang/Planning_with_ROS2/install/planning/share/planning/environment/path.dsv
+[12.283s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/local_setup.bash
+[12.284s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/local_setup.sh
+[12.285s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/local_setup.zsh
+[12.285s] -- Installing: /home/huang/Planning_with_ROS2/install/planning/share/planning/local_setup.dsv
+[12.288s] -- Installing: /home/huang/Planning_with_ROS2/install/planning/share/planning/package.dsv
+[12.294s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/ament_index/resource_index/packages/planning
+[12.296s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/cmake/planningConfig.cmake
+[12.296s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/cmake/planningConfig-version.cmake
+[12.296s] -- Up-to-date: /home/huang/Planning_with_ROS2/install/planning/share/planning/package.xml
+[12.302s] Invoked command in '/home/huang/Planning_with_ROS2/build/planning' returned '0': CMAKE_PREFIX_PATH=/home/huang/Planning_with_ROS2/install/base_msgs:/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --install /home/huang/Planning_with_ROS2/build/planning

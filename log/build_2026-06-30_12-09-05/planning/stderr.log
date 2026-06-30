@@ -1,0 +1,22 @@
+[31mCMake Error at src/move_cmd/CMakeLists.txt:13 (add_executable):
+  Cannot find source file:
+
+    /home/huang/Planning_with_ROS2/src/planning/src/move_cmd/car_move_node.cpp
+
+[0m
+[31mCMake Error at src/move_cmd/CMakeLists.txt:17 (add_executable):
+  Cannot find source file:
+
+    /home/huang/Planning_with_ROS2/src/planning/src/move_cmd/obs_move_node.cpp
+
+[0m
+[31mCMake Error at src/move_cmd/CMakeLists.txt:13 (add_executable):
+  No SOURCES given to target: car_move_cmd
+
+[0m
+[31mCMake Error at src/move_cmd/CMakeLists.txt:17 (add_executable):
+  No SOURCES given to target: obs_move_cmd
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:324：cmake_check_build_system] 错误 1

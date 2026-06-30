@@ -1,0 +1,5 @@
+/usr/bin/ld: 找不到 -lmathlilbs: 没有那个文件或目录
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [src/reference_line/CMakeFiles/reference_line.dir/build.make:195：src/reference_line/libreference_line.so] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:514：src/reference_line/CMakeFiles/reference_line.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

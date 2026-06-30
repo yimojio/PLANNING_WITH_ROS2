@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target planning_node[0m
+[ 12%] [32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o[0m
+[ 25%] [32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o[0m
+[ 37%] [32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/curve.cpp.o[0m
+[ 75%] Built target planning_node

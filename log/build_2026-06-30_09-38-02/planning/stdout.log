@@ -1,0 +1,6 @@
+[  7%] [32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/curve.cpp.o[0m
+[ 21%] Built target global_planner
+[ 35%] Built target decision_center
+[ 42%] [32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o[0m
+[ 71%] Built target planning_node

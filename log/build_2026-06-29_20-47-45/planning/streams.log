@@ -1,0 +1,29 @@
+[0.441s] Invoking command in '/home/huang/Planning_with_ROS2/build/planning': CMAKE_PREFIX_PATH=/home/huang/Planning_with_ROS2/install/base_msgs:/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --build /home/huang/Planning_with_ROS2/build/planning -- -j4 -l4
+[0.663s] [ 12%] [32mBuilding CXX object src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o[0m
+[0.683s] [ 25%] [32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o[0m
+[0.697s] [ 37%] [32mBuilding CXX object src/common/CMakeFiles/mathlibs.dir/math/curve.cpp.o[0m
+[0.724s] [ 75%] Built target planning_node
+[0.729s] In file included from [01m[K/home/huang/Planning_with_ROS2/src/planning/src/common/config_reader/config_reader.cpp:1[m[K:
+[0.729s] [01m[K/home/huang/Planning_with_ROS2/src/planning/src/common/config_reader/config_reader.h:4:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: 没有那个文件或目录
+[0.729s]     4 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.729s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.729s] compilation terminated.
+[0.735s] gmake[2]: *** [src/common/CMakeFiles/config_reader.dir/build.make:76：src/common/CMakeFiles/config_reader.dir/config_reader/config_reader.cpp.o] 错误 1
+[0.739s] gmake[1]: *** [CMakeFiles/Makefile2:298：src/common/CMakeFiles/config_reader.dir/all] 错误 2
+[0.739s] gmake[1]: *** 正在等待未完成的任务....
+[0.743s] In file included from [01m[K/home/huang/Planning_with_ROS2/src/planning/src/common/math/curve.cpp:1[m[K:
+[0.743s] [01m[K/home/huang/Planning_with_ROS2/src/planning/src/common/math/curve.h:4:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: 没有那个文件或目录
+[0.743s]     4 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.743s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.743s] compilation terminated.
+[0.743s] In file included from [01m[K/home/huang/Planning_with_ROS2/src/planning/src/common/math/polynomial_curve.cpp:1[m[K:
+[0.743s] [01m[K/home/huang/Planning_with_ROS2/src/planning/src/common/math/polynomial_curve.h:4:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: 没有那个文件或目录
+[0.744s]     4 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.744s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.744s] compilation terminated.
+[0.748s] gmake[2]: *** [src/common/CMakeFiles/mathlibs.dir/build.make:76：src/common/CMakeFiles/mathlibs.dir/math/curve.cpp.o] 错误 1
+[0.749s] gmake[2]: *** 正在等待未完成的任务....
+[0.750s] gmake[2]: *** [src/common/CMakeFiles/mathlibs.dir/build.make:90：src/common/CMakeFiles/mathlibs.dir/math/polynomial_curve.cpp.o] 错误 1
+[0.750s] gmake[1]: *** [CMakeFiles/Makefile2:324：src/common/CMakeFiles/mathlibs.dir/all] 错误 2
+[0.750s] gmake: *** [Makefile:146：all] 错误 2
+[0.762s] Invoked command in '/home/huang/Planning_with_ROS2/build/planning' returned '2': CMAKE_PREFIX_PATH=/home/huang/Planning_with_ROS2/install/base_msgs:/home/huang/Planning_with_ROS2/install/planning:/home/huang/Planning_with_ROS2/install/data_plot:/opt/ros/humble /usr/bin/cmake --build /home/huang/Planning_with_ROS2/build/planning -- -j4 -l4
